@@ -65,6 +65,10 @@ import {rank} from "./Commands/rank";
 import displayRank from "./Commands/display-rank";
 import giveXp from "./Commands/give-xp";
 import resetXp from "./Utils/resetXp"
+import facModalHandler from "./Utils/facModalHandler";
+import facSelectHandler from "./Utils/facSelectHandler";
+import setFacChannel from "./Commands/set-fac-channel";
+import facClose from "./Commands/fac-close";
 
 
 require("dotenv").config();
@@ -149,6 +153,8 @@ const commandMapping: any = {
   'rank': { sub: false, vars: 1, handler: rank },
   'display-rank': { sub: false, vars: 1, handler: displayRank },
   'give-xp': { sub: false, vars: 1, handler: giveXp },
+  'set-fac-channel': { sub: false, vars: 1, handler: setFacChannel },
+  'fac-close': { sub: false, vars: 1, handler: facClose },
 };
 const timerBP = [60 * 5, 60 * 10, 60 * 30, 60 * 60, 60 * 60 * 6, 60 * 60 * 12]; // Timer breakpoints in seconds
 
@@ -296,11 +302,16 @@ const main = async (): Promise<void> => {
         }
       } else if (interaction.isButton()) {
         await buttonHandler(interaction);
+
+      } else if ((interaction as any).isStringSelectMenu && (interaction as any).isStringSelectMenu()) {
+        await facSelectHandler(interaction as any);
+      } else if (interaction.isModalSubmit()) {
+          await facModalHandler(interaction);
       } else if (interaction.isAutocomplete()) {
         await autoCompleteHandler(interaction);
       }
     } catch (e) {
-      if (interaction.isChatInputCommand() || interaction.isButton()) {
+      if (interaction.isChatInputCommand() || interaction.isButton()  || interaction.isModalSubmit()) {
         let errorDump = JSON.stringify(e, Object.getOwnPropertyNames(e));
         if (interaction.isChatInputCommand()) {
           console.log(
@@ -324,6 +335,15 @@ const main = async (): Promise<void> => {
               "[❗❗❗] An error has occurred in Storeman Bot button action. Please kindly send logs below this message to the developer on Discord at pabelpanator.",
             ephemeral: true,
           });
+        } else if (interaction.isModalSubmit()) {
+            console.log(
+              "[!!!]: An error has occured in a modal submission. Please kindly report this to the developer on Discord (pabelpanator)",
+            );
+            interaction.followUp({
+              content:
+                "[❗❗❗] An error has occurred in Storeman Bot modal submission. Please kindly send logs below this message to the developer on Discord at pabelpanator.",
+              ephemeral: true,
+            });
         }
         while (errorDump.length > 0) {
           if (errorDump.length > 2000) {

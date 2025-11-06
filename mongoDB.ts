@@ -3,6 +3,36 @@ import { EmptyStatement } from 'typescript';
 let db: Db
 let mongoClientObj: any;
 
+interface FAC {
+    guildId: string;
+    threadId: string;
+    location: string;
+    customName?: string;
+    msuppConsumption?: Array<{
+        zoneName: string;
+        hourlyRate: number;
+        currentStock: number;
+        expireDate?: Date;
+    }>;
+    exports?: string[];
+    imports?: string[];
+    procedures?: string;
+    msups?: number; // Legacy field, keeping for compatibility
+    notes?: string;
+    createdBy: string;
+    createdAt: Date;
+}
+
+interface GuildConfig {
+    guildId: string;
+    facChannel?: string;
+    rankRoles?: string[];
+    logiTicketChannel?: string;
+    botChannelCategory?: string;
+    activeRole?: string;
+    inactiveRole?: string;
+}
+
 interface Ticket 
 {
     guildId : string;
@@ -64,7 +94,9 @@ const getCollections = (serverID?: any) => {
         config: db.collection('config'),
         facilities:db.collection('facilities'),
         tickets:db.collection<Ticket>('tickets'),
-        members:db.collection('members')
+        members:db.collection('members'),
+        facs:db.collection<FAC>('facs'),
+        guildConfig: db.collection<GuildConfig>('guildConfig')
     }
     return collections
     

@@ -323,7 +323,11 @@ const commands = [
         .addUserOption((option) => option.setName("soldier").setDescription("who are you giving xp to?").setRequired(true))
         .addNumberOption((option) => option.setName("xp").setDescription("amount of xp").setRequired(true))
         .addStringOption((option) => option.setName("type").setDescription("combat, logi, or engineering XP").setRequired(true).setAutocomplete(true)),
-
+    new SlashCommandBuilder().setName('set-fac-channel').setDescription('Set the channel for FAC management')
+        .addChannelOption((option) => option.setName("channel")
+            .setDescription("The channel where FAC management will take place")
+            .setRequired(true)),
+    new SlashCommandBuilder().setName('fac-close').setDescription('Close a FAC thread') 
 ].map(command => command.toJSON())
 
 

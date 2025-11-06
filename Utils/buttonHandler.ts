@@ -6,6 +6,8 @@ import checkTimeNotifs from "./checkTimeNotifs";
 import generateStockpileMsg from "./generateStockpileMsg";
 import updateStockpileMsg from "./updateStockpileMsg";
 import buttonHandlerOracle from "./oracleButtons";
+import buttonHandlerFac from "./facButtons";
+import facThreadButtons from "./facThreadButtons";
 
 
 
@@ -262,8 +264,11 @@ const sppurgestockpile = async (interaction: ButtonInteraction, collections: any
 // }
 
 const cancel = async (interaction: ButtonInteraction, collections: any, splitted: Array<string>) => {
-    await interaction.update({ content: "Command cancelled", components: [] })
+    // Don't edit the original management message; send an ephemeral confirmation instead
+    await interaction.followUp({ content: "Command cancelled", ephemeral: true })
 }
+
+
 
 const commands: any = {
     'spsetamount': spsetamount,
@@ -273,22 +278,64 @@ const commands: any = {
     'spfind': spfind,
     'spsettarget': spsettarget,
     'cancel': cancel,
-    'spgroupsettarget': spgroupsettarget
+    'spgroupsettarget': spgroupsettarget,
+    'create_fac': async (interaction: ButtonInteraction, collections: any, splitted: Array<string>) => {
+        // facButtons handles permission/channel checks and thread creation
+        await buttonHandlerFac(interaction);
+    },
+    'fac_continue': async (interaction: ButtonInteraction, collections: any, splitted: Array<string>) => {
+        // facButtons handles the continue flow to open main FAC modal
+        await buttonHandlerFac(interaction);
+    },
+    'fac_edit_stock': async (interaction: ButtonInteraction, collections: any, splitted: Array<string>) => {
+        await facThreadButtons(interaction);
+    },
+    'fac_edit_meta': async (interaction: ButtonInteraction, collections: any, splitted: Array<string>) => {
+        await facThreadButtons(interaction);
+    },
 }
+
 
 
 const buttonHandler = async (interaction: ButtonInteraction) => {
     try {
         if ((await buttonHandlerOracle(interaction))!){
-            await interaction.update({
-                content: "Working on it...",
-                components: [],
-            });
-            const splitted = interaction.customId.split("==")
-            const command = splitted[0]
+            // Acknowledge the interaction without editing the original message so the management
+            // message stays visible and unchanged for other users.
+            try {
+                if(
+                    interaction.customId != "create_fac" &&
+                    !interaction.customId.startsWith("fac_continue|") &&
+                    !interaction.customId.startsWith("fac_edit_")
+                ){
+                    await interaction.deferUpdate();
+                }
+            } catch (err) {
+                // If deferUpdate fails (interaction already acknowledged), ignore and continue
+                console.warn('deferUpdate failed in buttonHandler:', err);
+            }
+            
+            // Handle fac_continue buttons specially (they use | delimiter instead of ==)
+            let command: string;
+            let splitted: Array<string>;
+            if (interaction.customId.startsWith("fac_continue|")) {
+                splitted = interaction.customId.split("|");
+                command = splitted[0]; // "fac_continue"
+            } else {
+                splitted = interaction.customId.split("==");
+                command = splitted[0];
+            }
+            
             const collections = process.env.STOCKPILER_MULTI_SERVER === "true" ? getCollections(interaction.guildId) : getCollections()
-        
-            commands[command](interaction, collections, splitted)
+
+            const cmdFunc = commands[command]
+            if (typeof cmdFunc !== "function") {
+                console.log("Unknown button command:", command, "full customId:", interaction.customId)
+                await interaction.followUp({ content: `Unknown button action: ${command}`, ephemeral: true })
+                return
+            }
+
+            await cmdFunc(interaction, collections, splitted)
 
         }
     }
