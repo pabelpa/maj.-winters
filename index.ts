@@ -73,7 +73,7 @@ import facClose from "./Commands/fac-close";
 
 require("dotenv").config();
 const host = process.env.APP_HOST ? process.env.APP_HOST : "0.0.0.0";
-const currentVersion = 29;
+const currentVersion = 30;
 const commandMapping: any = {
   sphelp: { sub: false, vars: 1, handler: sphelp },
   spcode: {
