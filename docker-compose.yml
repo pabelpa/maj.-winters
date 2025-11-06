@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  bot:
+    build: .
+    image: ghcr.io/tkaixiang/storeman-bot:latest
+    restart: unless-stopped
+    network_mode: "host" 
+    secrets:
+      - source: dotenv
+        target: /app/.env
+  mongo:
+    image: mongo:latest
+    volumes:
+      - mongodb_data:/data/db
+
+volumes:
+  mongodb_data:
+
+secrets:
+  dotenv: 
+    file: ./.env
