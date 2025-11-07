@@ -159,9 +159,11 @@ const facModalHandler = async (interaction: ModalSubmitInteraction) => {
                 return;
             }
 
-            const zones = (fac.msuppConsumption || []).map((z: any) => ({...z}));
+            // Parse incoming stock lines and fully replace the msuppConsumption array
             const lines = stocksRaw.split(/\n|;/).map(l => l.trim()).filter(Boolean);
             let missingRate = false;
+            const newZones: Array<any> = [];
+
             for (const line of lines) {
                 const rateMatch = line.match(/(\d+)\s*\/\s*hr/i);
                 const stockMatch = line.match(/(\d+)\s*stock/i);
@@ -171,28 +173,19 @@ const facModalHandler = async (interaction: ModalSubmitInteraction) => {
                 let name = line;
                 if (rateMatch) name = name.replace(rateMatch[0], '');
                 if (stockMatch) name = name.replace(stockMatch[0], '');
-                name = name.replace(/,/g,'').trim();
+                name = name.replace(/,/g, '').trim();
                 const nameKey = name.toLowerCase();
-                if (!number || !nameKey) continue;
+                if (!number || !nameKey) continue; // skip invalid lines
 
-                const idx = zones.findIndex(z => z.zoneName.toLowerCase() === nameKey);
-                if (idx >= 0) {
-                    zones[idx].zoneName = zones[idx].zoneName || name; // keep original casing if present
-                    zones[idx].currentStock = number;
-                    zones[idx].hourlyRate = typeof rateFromLine === 'number' ? rateFromLine : (zones[idx].hourlyRate || 0);
-                    const rate = zones[idx].hourlyRate || 0;
-                    zones[idx].expireDate = rate > 0 ? new Date(Date.now() + (number/rate)*3600000) : undefined;
-                } else {
-                    // Create a new zone when it doesn't exist yet (rate required)
-                    const hourlyRate = typeof rateFromLine === 'number' ? rateFromLine : 0;
-                    const expireDate = hourlyRate > 0 ? new Date(Date.now() + (number/hourlyRate)*3600000) : undefined;
-                    zones.push({
-                        zoneName: name,
-                        hourlyRate,
-                        currentStock: number,
-                        expireDate
-                    });
-                }
+                const hourlyRate = typeof rateFromLine === 'number' ? rateFromLine : 0;
+                const expireDate = hourlyRate > 0 ? new Date(Date.now() + (number / hourlyRate) * 3600000) : undefined;
+
+                newZones.push({
+                    zoneName: name,
+                    hourlyRate,
+                    currentStock: number,
+                    expireDate
+                });
             }
 
             if (missingRate) {
@@ -200,7 +193,8 @@ const facModalHandler = async (interaction: ModalSubmitInteraction) => {
                 return;
             }
 
-            await collections.facs.updateOne({ threadId }, { $set: { msuppConsumption: zones } });
+            await collections.facs.updateOne({ threadId }, { $set: { msuppConsumption: newZones } });
+            const zones = newZones;
 
             // Refresh starter message
             const thread = await interaction.channel?.fetch();
