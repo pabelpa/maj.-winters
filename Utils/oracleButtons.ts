@@ -1,6 +1,7 @@
-import { ButtonInteraction,GuildMemberRoleManager,PermissionsBitField,ChannelType } from "discord.js";
+import { ButtonInteraction,GuildMemberRoleManager,PermissionsBitField,ChannelType,GuildMember,ForumChannel,ThreadAutoArchiveDuration } from "discord.js";
 import { getCollections } from "../mongoDB";
 import createOracleEmbed from "./createOracleEmbed";
+import checkPermissions from "./checkPermissions";
 const buttonHandlerOracle = async (interaction: ButtonInteraction) => {
     let config = await getCollections().config.findOne({})
     let Ticket = getCollections().tickets
@@ -75,7 +76,7 @@ const buttonHandlerOracle = async (interaction: ButtonInteraction) => {
         }
         interaction.reply({content: "*Current builder discarded, start a new ticket by running the **/create-logistics-ticket** command*",ephemeral:true})
     }else if (interaction.customId.startsWith("force_resolve_logi_ticket_") && config){
-        if ((interaction.member?.permissions as Readonly<PermissionsBitField>).has("ManageChannels")){
+        if (await checkPermissions(interaction, "admin", interaction.member as GuildMember)){
             const t = await Ticket.findOne({
                 ticketId: interaction.customId.substring(interaction.customId.length - 4, interaction.customId.length)
             })
@@ -95,62 +96,51 @@ const buttonHandlerOracle = async (interaction: ButtonInteraction) => {
                         return {name: v.toString(), value: t.delivered[i].toString() + " / " + t.demanded[i].toString()}
                     }) as {value: string, name: string}[] , "");
             
-
-                if (t.ticketPostEmbed && t.ticketPostChannel){
-                    const p = await interaction.client.channels.fetch(t.ticketPostChannel);
-                    if (!p || !p.isTextBased()) return;
-
-                    await p.messages.fetch(t.ticketPostEmbed).then(async msg => {
-                        if (!msg) return;
-
-                        await (msg as any).edit({embeds: [logiChannelEmbed], components: []})
-                    });    
-                }
-            
-            }
-
-            if (!interaction.guild) return;
-
-            const users = await interaction.guild.members.list();
-
-            const transcriptEmbed = createOracleEmbed('Logistics Ticket (' + t.ticketId + ") - Transcript" , "This ticket was recently closed, here's a transcript of the discussion:\n\n" + (t.transcript.length > 0 ? t.transcript.join("\n\n") : "*No messages were sent*"), 
+                const transcriptEmbed = createOracleEmbed('Logistics Ticket (' + t.ticketId + ") - Transcript" , "This ticket was recently closed, here's a transcript of the discussion:\n\n", 
                     [] , "");
 
-            for (let i = 0; i < users.size; i++) {
-                if (users.at(i)?.roles.cache.some((v) => {return v.id == t.ticketRoleId})) {
-                    await users.at(i)?.send({
-                        embeds: [
-                            transcriptEmbed
-                        ]
-                    })
+                let config = await getCollections().config.findOne({})
+                if (!config) return false
+                let channelObj = await interaction.client.channels.fetch(config.availableTicketChannel)
+                let oldThread = await (channelObj as ForumChannel).threads?.fetch(t.thread)
+                
+                oldThread?.delete()
+                channelObj = await interaction.client.channels.fetch(config.archiveTicketChannel)
+                let thread = await (channelObj as any).threads.create({
+                    name: t.title + "[COMPLETE]",
+                    autoArchiveDuration: ThreadAutoArchiveDuration.OneWeek,
+                    reason: "Ticket",
+                    message:`Created by: ${t.author} Location: ${t.location}`,
+                });
+                getCollections().tickets.updateOne({_id:t._id},{$set:{
+                    thread:thread.id,
+                    threadHeaderMessage:thread.lastMessageId
+                }}) 
+                thread.send({embeds:[logiChannelEmbed,transcriptEmbed]})
+                    for(let i=0;i<t.transcript.length;i++){
+                    thread.send({content:t.transcript[i]})
                 }
-            }
 
-            if (config.logChannel){
-                const b = await interaction.client.channels.fetch(config.logChannel);
+                if (!interaction.guild) return false;
 
-                if (b && b.isTextBased()){
-                    await b.send({
-                        embeds: [
-                            transcriptEmbed
-                        ]
-                    })
+                const rle = await interaction.guild.roles.fetch(t.ticketRoleId);
+
+                if (rle){
+                    await rle.delete();
                 }
+                
+                if (q){
+                    await q.delete()
+                }
+
+                await Ticket.updateOne({
+                    _id:t._id
+                },
+                {
+                    $set:{closed: true}
+                });
             }
 
-            const rle = await interaction.guild.roles.fetch(t.ticketRoleId);
-
-            if (rle){
-                await rle.delete();
-            }
-            
-            if (q){
-                await q.delete()
-            }
-
-            await Ticket.updateOne({_id:t._id},{
-                $set:{closed: true}
-            });
         }else{
             interaction.reply({content: "*Insufficient permissions - Manage Channel permissions required to force resolve ticket*",ephemeral:true})
         }

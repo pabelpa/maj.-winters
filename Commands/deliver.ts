@@ -136,7 +136,7 @@ const deliver = async (interaction: ChatInputCommandInteraction): Promise<boolea
     if (!fulfilled){
 
         await channel.messages.fetch(t.updateEmbed).then(msg => (msg as any).edit({embeds: [ticketChannelEmbed]}));
-        let logMsg = "**Logged delivery of " + interaction.options.getInteger("amount") + " " + interaction.options.getString("resource") + (interaction.options.getString("resource")?.endsWith("s") ? "" : "s") + " to " + t.location +" by <@" + (interaction.user.id) + ">**"
+        let logMsg = "**Logged delivery of " + interaction.options.getInteger("amount") + " " + interaction.options.getString("resource") + (interaction.options.getString("resource")?.endsWith("s") ? "" : "s") + " to " + t.location +" by " + (interaction.user.username) + "**"
         channel.send({content: logMsg})
         await getCollections().tickets.updateOne({_id:t._id},
         {
