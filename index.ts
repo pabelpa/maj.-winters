@@ -69,6 +69,7 @@ import facModalHandler from "./Utils/facModalHandler";
 import facSelectHandler from "./Utils/facSelectHandler";
 import setFacChannel from "./Commands/set-fac-channel";
 import facClose from "./Commands/fac-close";
+import setChannelGeneral from "./Commands/set-channel-general";
 
 
 require("dotenv").config();
@@ -155,6 +156,7 @@ const commandMapping: any = {
   'give-xp': { sub: false, vars: 1, handler: giveXp },
   'set-fac-channel': { sub: false, vars: 1, handler: setFacChannel },
   'fac-close': { sub: false, vars: 1, handler: facClose },
+  'set-channel-general': { sub: false, vars: 1, handler: setChannelGeneral },
 };
 const timerBP = [60 * 5, 60 * 10, 60 * 30, 60 * 60, 60 * 60 * 6, 60 * 60 * 12]; // Timer breakpoints in seconds
 
@@ -467,6 +469,12 @@ const main = async (): Promise<void> => {
     locationMappings[LocationCSV[i].Code.toLowerCase()] =
       LocationCSV[i].Translation;
   }
+
+  let inf_tech = JSON.parse(await fs.promises.readFile("inf_technology.json", 'utf-8'))
+  let vic_tech = JSON.parse(await fs.promises.readFile("vic_technology.json", 'utf-8'))
+  NodeCacheObj.set("vic_tech", vic_tech);
+  NodeCacheObj.set("inf_tech", inf_tech);
+
 
   NodeCacheObj.set("itemList", itemList);
   NodeCacheObj.set("itemListBoth", itemListBoth);

@@ -1,0 +1,106 @@
+{
+    "Rifle squad":{
+        "Rifle sqaud A":{
+            "requirements":[],
+            "TOE":{
+                "argenti":0.5,
+                "7.62mm":1,
+                "bomba":1
+            }
+        },
+        "Rifle sqaud B":{
+            "requirements":[
+                "smoke",
+                "Fuscina",
+                "bayonett"
+            ],
+            "TOE":{
+                "argenti":0.25,
+                "Fuscina":0.25,
+                "7.62mm":1,
+                "bomba":1,
+                "smoke":1,
+                "bayonett":1
+            }
+        },
+        "Rifle sqaud C":{
+            "requirements":[
+                "smoke",
+                "catena"
+            ],
+            "TOE":{
+                "Fuscina":0.25,
+                "catena":0.5,
+                "7.62mm":1,
+                "bomba":1,
+                "smoke":1
+            }
+        }
+    },
+    "Engineer squad":{},
+    "Special weapons squad":{},
+    "Mortar squad":{},
+    "CQB squad":{},
+    "Sapper squad":{
+        "Sapper sqaud A":{
+            "requirements":[],
+            "TOE":{
+                "mammon":3
+            }
+        },
+        "Sapper sqaud B":{
+            "requirements":[
+                "smoke"
+            ],
+            "TOE":{
+                "mammon":3,
+                "smoke":1
+            }
+        },
+        "Sapper sqaud C":{
+            "requirements":[
+                "Lunaire",
+                "smoke"
+            ],
+            "TOE":{
+                "lunaire":2,
+                "tremola":2,
+                "smoke":1
+            }
+        },
+        "Sapper sqaud D":{
+            "requirements":[
+                "Hydra",
+                "smoke"
+            ],
+            "TOE":{
+                "Hydra":6,
+                "smoke":1
+            }
+        },
+        "Sapper sqaud E":{
+            "requirements":[
+                "havoc",
+                "smoke"
+            ],
+            "TOE":{
+                "Havoc charge":1,
+                "Havoc detonator":1,
+                "smoke":1
+            }
+        }
+    },
+    "AT Field gun squad":{},
+    "Recon squad":{},
+    "AT squad":{},
+    "AT armor squad":{},
+    "GP armor squad":{},
+    "Siege armor squad":{},
+    "AP armor squad":{},
+    "Artillery Squad":{},
+    "Medic Squad":{},
+    "Marine Squad":{},
+    "Garrison squad":{},
+    "Support squad":{},
+    "Command squad":{}
+}
