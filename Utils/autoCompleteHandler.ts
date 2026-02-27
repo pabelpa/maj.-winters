@@ -169,6 +169,37 @@ const spGroupComplete = async (interaction: AutocompleteInteraction, collections
     await interaction.respond(filtered);
 }
 
+const techAC = async (interaction: AutocompleteInteraction, collections: any) => {
+    const focusedValue = interaction.options.getFocused().toLowerCase();
+    const vic_tech: any = NodeCacheObj.get("vic_tech");
+    const inf_tech: any = NodeCacheObj.get("inf_tech");
+
+    const config = await collections.config.findOne({})
+    const unlockedItems: string[] = config?.unlockedItems ?? [];
+
+    const unlockedSet = new Set<string>(
+        unlockedItems.map((item: string) => item.toLowerCase().replace(/\./g, "_"))
+    );
+
+    const allTechs = new Set<string>([...Object.keys(vic_tech), ...Object.keys(inf_tech)]);
+    const filtered: Array<ApplicationCommandOptionChoiceData> = [];
+
+    for (const tech of allTechs) {
+        if (filtered.length >= 25) break;
+        if (!tech.toLowerCase().includes(focusedValue)) continue;
+
+        const items: string[] = vic_tech[tech] ?? inf_tech[tech] ?? [];
+        const hasLocked = items.some(
+            item => !unlockedSet.has(item.toLowerCase().replace(/\./g, "_"))
+        );
+        if (hasLocked) {
+            filtered.push({ name: tech, value: tech });
+        }
+    }
+
+    await interaction.respond(filtered);
+}
+
 const commands: any = {
     'sploc': { 'location': splocationComplete, 'stockpile': spStockpileComplete },
     'spcode': { 'stockpile': spStockpileComplete },
@@ -185,7 +216,8 @@ const commands: any = {
     'spremovefac':{'name': spFacComplete,},
     'deliver':{'resource': deliverAC,},
     'set-rank-roles':{'rank': rankRoleAC,},
-    'give-xp':{'type': xpTypeAC,}
+    'give-xp':{'type': xpTypeAC,},
+    'unlock': {'tech': techAC,}
 
 }
 

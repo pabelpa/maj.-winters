@@ -94,10 +94,7 @@ categories = [
     "Large Structure",
     "Ballistic",
 ]
-const createStockpileEmbeds = async (stockpile:any):Promise<EmbedBuilder[]>=>{
-    let output :any ={}
-    let empty_i
-    let stockpileInfo = [
+const stockpileInfo = [
         {
             name: "Small Arms",
             cats: [
@@ -205,7 +202,11 @@ const createStockpileEmbeds = async (stockpile:any):Promise<EmbedBuilder[]>=>{
             color: 0x0099FF
         },
 
-    ]
+]
+
+const createStockpileEmbeds = async (stockpile:any):Promise<EmbedBuilder[]>=>{
+    let output :any ={}
+    let empty_i
     for (let j=0;j<stockpileInfo.length;j++){
         let currentEmpty = true
         let currentCat = stockpileInfo[j];
@@ -225,14 +226,7 @@ const createStockpileEmbeds = async (stockpile:any):Promise<EmbedBuilder[]>=>{
         }
         output[currentCat.name]=currentMsg
     }
-
-
-
-
-    
-
-    
     return output
 }
 
-export {categories,createStockpileEmbeds}
+export {categories, stockpileInfo, createStockpileEmbeds}

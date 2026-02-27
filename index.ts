@@ -70,6 +70,9 @@ import facSelectHandler from "./Utils/facSelectHandler";
 import setFacChannel from "./Commands/set-fac-channel";
 import facClose from "./Commands/fac-close";
 import setChannelGeneral from "./Commands/set-channel-general";
+import unlock from "./Commands/unlock";
+import techStatus from "./Commands/tech-status";
+import techReset from "./Commands/tech-reset";
 
 
 require("dotenv").config();
@@ -157,6 +160,9 @@ const commandMapping: any = {
   'set-fac-channel': { sub: false, vars: 1, handler: setFacChannel },
   'fac-close': { sub: false, vars: 1, handler: facClose },
   'set-channel-general': { sub: false, vars: 1, handler: setChannelGeneral },
+  'unlock': { sub: false, vars: 1, handler: unlock },
+  'tech-status': { sub: false, vars: 1, handler: techStatus },
+  'tech-reset': { sub: false, vars: 1, handler: techReset },
 };
 const timerBP = [60 * 5, 60 * 10, 60 * 30, 60 * 60, 60 * 60 * 6, 60 * 60 * 12]; // Timer breakpoints in seconds
 

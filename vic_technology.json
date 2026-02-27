@@ -1,166 +1,53 @@
 {
-    "G40 \"Sagittarii\"":[
+    "G40 \"Sagittarii\"": [
         "G40 \"Sagittarii\""
     ],
-    "KRR2-790 Omen": [
-        "KRR2-790 Omen"
-    ],
-    "Concrete Mixer": [
-        "Concrete Mixer"
-    ],
-    "Construction Equipment": [
-        "Construction Equipment"
-    ],
-    "Fabri Rucksack": [
-        "Fabri Rucksack"
-    ],
-    "Medic Fatigues": [
-        "Medic Fatigues"
-    ],
-    "Velian Flak Vest": [
-        "Velian Flak Vest"
-    ],
-    "The Pitch Gun mc.V": [
-        "The Pitch Gun mc.V"
-    ],
-    "Dusk ce.III": [
-        "Dusk ce.III"
-    ],
-    "Catara mo. II": [
-        "Catara mo. II"
-    ],
-    "KRN886-127 Gast Machine Gun": [
-        "KRN886-127 Gast Machine Gun"
-    ],
-    "Cometa T2-9": [
-        "Cometa T2-9"
-    ],
-    "Volta r.I Repeater": [
-        "Volta r.I Repeater"
-    ],
-    "Fuscina pi.I": [
-        "Fuscina pi.I"
-    ],
-    "Lionclaw mc.VIII": [
-        "Lionclaw mc.VIII"
-    ],
-    "KRR3-792 Auger": [
-        "KRR3-792 Auger"
-    ],
-    "Venom c.II 35": [
-        "Venom c.II 35"
-    ],
-    "Bane 45": [
-        "Bane 45"
-    ],
-    "Cremari Mortar": [
-        "Cremari Mortar"
-    ],
-    "Ignifist 30": [
-        "Ignifist 30"
-    ],
-    "Green Ash Grenade": [
-        "Green Ash Grenade"
-    ],
-    "Daucus isg.III": [
-        "Daucus isg.III"
-    ],
-    "120mm": [
-        "120mm"
-    ],
-    "300mm": [
-        "300mm"
-    ],
-    "250mm": [
-        "250mm"
-    ],
-    "Cutler Launcher 4": [
-        "Cutler Launcher 4"
-    ],
-    "75mm": [
-        "75mm"
-    ],
-    "40mm": [
-        "40mm"
-    ],
-    "30mm": [
-        "30mm"
-    ],
-    "Binoculars": [
-        "Binoculars"
-    ],
-    "Hydra's Whisper": [
-        "Hydra's Whisper"
-    ],
-    "Listening Kit": [
-        "Listening Kit"
-    ],
-    "Radio Backpack": [
-        "Radio Backpack"
-    ],
-    "Sledge Hammer": [
-        "Sledge Hammer"
-    ],
-    "Abisme AT-99": [
-        "Abisme AT-99"
-    ],
-    "Tripod": [
-        "Tripod"
-    ],
-    "Buckhorn CCQ-18": [
-        "Buckhorn CCQ-18"
-    ],
-    "Gas Mask": [
-        "Gas Mask"
-    ],
-    "Gas Mask Filter": [
-        "Gas Mask Filter"
-    ],
-    "Grenadier's Baldric": [
-        "Grenadier's Baldric"
-    ],
-    "Legionary's Oilcoat": [
-        "Legionary's Oilcoat"
-    ],
-    "Recon Camo": [
-        "Recon Camo"
-    ],
-    "Heavy Topcoat": [
-        "Heavy Topcoat"
-    ],
-    "Tankman's Coveralls": [
-        "Tankman's Coveralls"
-    ],
+
+
     "R-12 - \"Salus\" Ambulance": [
         "R-12 - \"Salus\" Ambulance"
     ],
+
+
     "T3 \"Xiphos\"": [
         "T3 \"Xiphos\""
-    ],
-    "T12 \"Actaeon\" Tankette": [
-        "T12 \"Actaeon\" Tankette"
     ],
     "T5 \"Percutio\"": [
         "T5 \"Percutio\""
     ],
-    "BMS - Aquatipper": [
-        "BMS - Aquatipper"
+
+
+    "T12 \"Actaeon\" Tankette": [
+        "T12 \"Actaeon\" Tankette"
     ],
+
+
     "R-15 - \"Chariot\"": [
         "R-15 - \"Chariot\""
     ],
+
+
     "AA-2 Battering Ram": [
         "AA-2 Battering Ram"
     ],
     "68-45 \"Smelter\" Heavy Field Gun": [
         "68-45 \"Smelter\" Heavy Field Gun"
     ],
+
+    "AB-8 \"Acheron\"": [
+        "AB-8 \"Acheron\""
+    ],
+
     "120-68 \"Koronides\" Field Gun": [
         "120-68 \"Koronides\" Field Gun"
     ],
+
+
     "Type C - \"Charon\"": [
         "Type C - \"Charon\""
     ],
+
+
     "HH-d \"Peltast\"": [
         "HH-d \"Peltast\""
     ],
@@ -170,12 +57,13 @@
     "HH-b \"Hoplite\"": [
         "HH-b \"Hoplite\""
     ],
+
+
     "BMS - Scrap Hauler": [
         "BMS - Scrap Hauler"
     ],
-    "AB-8 \"Acheron\"": [
-        "AB-8 \"Acheron\""
-    ],
+
+    
     "AB-11 \"Doru\"": [
         "AB-11 \"Doru\""
     ],
@@ -219,92 +107,14 @@
     "T20 \"Ixion\" Tankette": [
         "T20 \"Ixion\" Tankette"
     ],
-    "68mm Anti-Tank Cannon": [
-        "68mm Anti-Tank Cannon"
-    ],
-    "50-500 \"Thunderbolt\" Cannon": [
-        "50-500 \"Thunderbolt\" Cannon"
-    ],
-    "DAE 1b-2 \"Serra\"": [
-        "DAE 1b-2 \"Serra\""
-    ],
-    "Lamentum mm.IV": [
-        "Lamentum mm.IV"
-    ],
-    "\"Typhon\" ra.XII": [
-        "\"Typhon\" ra.XII"
-    ],
     "T8 \"Gemini\"": [
         "T8 \"Gemini\""
-    ],
-    "KLG901-2 Lunaire F": [
-        "KLG901-2 Lunaire F"
-    ],
-    "Officialis' Attire": [
-        "Officialis' Attire"
     ],
     "86K-c \"Ranseur\"": [
         "86K-c \"Ranseur\""
     ],
-    "Damaged Components": [
-        "Damaged Components"
-    ],
-    "Heavy Oil": [
-        "Heavy Oil"
-    ],
-    "Enriched Oil": [
-        "Enriched Oil"
-    ],
-    "Processed Construction Materials": [
-        "Processed Construction Materials"
-    ],
-    "Steel Construction Materials": [
-        "Steel Construction Materials"
-    ],
-    "\"Molten Wind\" v.II Flame Torch": [
-        "\"Molten Wind\" v.II Flame Torch"
-    ],
-    "\"Molten Wind\" v.II Ammo": [
-        "\"Molten Wind\" v.II Ammo"
-    ],
-    "3C-High Explosive Rocket": [
-        "3C-High Explosive Rocket"
-    ],
     "R-17 \"Retiarius\" Skirmisher": [
         "R-17 \"Retiarius\" Skirmisher"
-    ],
-    "DAE 3b-2 \"Hades' Net\"": [
-        "DAE 3b-2 \"Hades' Net\""
-    ],
-    "4C-Fire Rocket": [
-        "4C-Fire Rocket"
-    ],
-    "Flame Ammo": [
-        "Flame Ammo"
-    ],
-    "94.5mm": [
-        "94.5mm"
-    ],
-    "Assembly Materials II": [
-        "Assembly Materials II"
-    ],
-    "Assembly Materials III": [
-        "Assembly Materials III"
-    ],
-    "Assembly Materials IV": [
-        "Assembly Materials IV"
-    ],
-    "Assembly Materials V": [
-        "Assembly Materials V"
-    ],
-    "DAE 1o-3 \"Polybolos\"": [
-        "DAE 1o-3 \"Polybolos\""
-    ],
-    "DAE 2a-1 \"Ruptura\"": [
-        "DAE 2a-1 \"Ruptura\""
-    ],
-    "Pipe": [
-        "Pipe"
     ],
     "85V-g \"Talos\"": [
         "85V-g \"Talos\""
@@ -318,38 +128,14 @@
     "H-19 \"Vulcan\"": [
         "H-19 \"Vulcan\""
     ],
-    "Havoc Charge": [
-        "Havoc Charge"
-    ],
-    "Havoc Charge Detonator": [
-        "Havoc Charge Detonator"
-    ],
-    "Mounted Fissura gd.I": [
-        "Mounted Fissura gd.I"
-    ],
     "R-12b \"Salva\"": [
         "R-12b \"Salva\""
-    ],
-    "Catena rt.IV Auto-Rifle": [
-        "Catena rt.IV Auto-Rifle"
     ],
     "T13 \"Deioneus\" Rocket Battery": [
         "T13 \"Deioneus\" Rocket Battery"
     ],
     "BMS - Fabricator": [
         "BMS - Fabricator"
-    ],
-    "E680-S Rudder Lock": [
-        "E680-S Rudder Lock"
-    ],
-    "Unstable Substances": [
-        "Unstable Substances"
-    ],
-    "Thermal Shielding": [
-        "Thermal Shielding"
-    ],
-    "Rare Alloys": [
-        "Rare Alloys"
     ],
     "Rooster - Junkwagon": [
         "Rooster - Junkwagon"
@@ -366,30 +152,6 @@
     "AU-A150 Taurine Rigger": [
         "AU-A150 Taurine Rigger"
     ],
-    "AOE-9 Rocket Booster": [
-        "AOE-9 Rocket Booster"
-    ],
-    "AOE-9 Rocket Body": [
-        "AOE-9 Rocket Body"
-    ],
-    "AOE-9 Rocket Warhead": [
-        "AOE-9 Rocket Warhead"
-    ],
-    "Naval Hull Segments": [
-        "Naval Hull Segments"
-    ],
-    "Naval Shell Plating": [
-        "Naval Shell Plating"
-    ],
-    "Naval Turbine Components": [
-        "Naval Turbine Components"
-    ],
-    "Model-7 Evie": [
-        "Model-7 Evie"
-    ],
-    "Wind Sock": [
-        "Wind Sock"
-    ],
     "90T-v \"Nemesis\"": [
         "90T-v \"Nemesis\""
     ],
@@ -399,52 +161,10 @@
     "BMS Bloodtender": [
         "BMS Bloodtender"
     ],
-    "Incendiary Mortar Shell": [
-        "Incendiary Mortar Shell"
-    ],
-    "Dawn Ve.II": [
-        "Dawn Ve.II"
-    ],
-    "Quickhatch Rt.I": [
-        "Quickhatch Rt.I"
-    ],
-    "KRF1-750 Dragonfly": [
-        "KRF1-750 Dragonfly"
-    ],
-    "Crows Foot Mine": [
-        "Crows Foot Mine"
-    ],
     "30-250 \"Tisiphone\" Field Cannon": [
         "30-250 \"Tisiphone\" Field Cannon"
     ],
-    "Legion Vexillum": [
-        "Legion Vexillum"
-    ],
     "35-250 \"Alekto\" Heavy Cannon": [
         "35-250 \"Alekto\" Heavy Cannon"
-    ],
-    "250mm \"Fury\" Shell": [
-        "250mm \"Fury\" Shell"
-    ],
-    "Remex Garb": [
-        "Remex Garb"
-    ],
-    "Construction Parts": [
-        "Construction Parts"
-    ],
-    "Structure Parts": [
-        "Structure Parts"
-    ],
-    "Storm Cannon Parts": [
-        "Storm Cannon Parts"
-    ],
-    "Weather Station Parts": [
-        "Weather Station Parts"
-    ],
-    "Intelligence Center Parts": [
-        "Intelligence Center Parts"
-    ],
-    "Underground Fortress Parts": [
-        "Underground Fortress Parts"
     ]
 }

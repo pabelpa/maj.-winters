@@ -327,7 +327,14 @@ const commands = [
         .addChannelOption((option) => option.setName("channel")
             .setDescription("The channel where FAC management will take place")
             .setRequired(true)),
-    new SlashCommandBuilder().setName('fac-close').setDescription('Close a FAC thread') 
+    new SlashCommandBuilder().setName('fac-close').setDescription('Close a FAC thread'),
+    new SlashCommandBuilder().setName('unlock')
+        .setDescription('Mark a tech as unlocked, making its items available for logistics tracking')
+        .addStringOption(option =>
+            option.setName("tech").setDescription("The tech to unlock").setRequired(true).setAutocomplete(true)
+        ),
+    new SlashCommandBuilder().setName('tech-status').setDescription('View all currently unlocked items organized by category'),
+    new SlashCommandBuilder().setName('tech-reset').setDescription('Reset all tech unlocks (use at the start of a new war)'),
 ].map(command => command.toJSON())
 
 
