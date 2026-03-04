@@ -2,13 +2,21 @@
     "G40 \"Sagittarii\"": [
         "G40 \"Sagittarii\""
     ],
-
-
-    "R-12 - \"Salus\" Ambulance": [
-        "R-12 - \"Salus\" Ambulance"
+    "GA-6 Cestus": [
+        "GA-6 Cestus"
     ],
 
 
+
+    "R-12 - \"Salus\" Ambulance": [
+        "R-12 - \"Salus\" Ambulance",
+        "R-12b \"Salva\""
+    ],
+
+    
+    "T8 \"Gemini\"": [
+        "T8 \"Gemini\""
+    ],
     "T3 \"Xiphos\"": [
         "T3 \"Xiphos\""
     ],
@@ -19,6 +27,9 @@
 
     "T12 \"Actaeon\" Tankette": [
         "T12 \"Actaeon\" Tankette"
+    ],
+    "T20 \"Ixion\" Tankette": [
+        "T20 \"Ixion\" Tankette"
     ],
 
 
@@ -34,9 +45,12 @@
         "68-45 \"Smelter\" Heavy Field Gun"
     ],
 
+
     "AB-8 \"Acheron\"": [
-        "AB-8 \"Acheron\""
+        "AB-8 \"Acheron\"",
+        "AB-11 \"Doru\""
     ],
+
 
     "120-68 \"Koronides\" Field Gun": [
         "120-68 \"Koronides\" Field Gun"
@@ -47,7 +61,7 @@
         "Type C - \"Charon\""
     ],
 
-
+    
     "HH-d \"Peltast\"": [
         "HH-d \"Peltast\""
     ],
@@ -64,107 +78,126 @@
     ],
 
     
-    "AB-11 \"Doru\"": [
-        "AB-11 \"Doru\""
-    ],
     "HC-2 \"Scorpion\"": [
-        "HC-2 \"Scorpion\""
+        "HC-2 \"Scorpion\"",
+        "HC-7 \"Ballista\""
     ],
+
+
     "H5 \"Hatchet\"": [
-        "H5 \"Hatchet\""
-    ],
-    "H-8 \"Kraneska\"": [
+        "H5 \"Hatchet\"",
         "H-8 \"Kraneska\""
     ],
     "H-10 \"Pelekys\"": [
         "H-10 \"Pelekys\""
     ],
-    "86K-a \"Bardiche\"": [
-        "86K-a \"Bardiche\""
+    "H-19 \"Vulcan\"": [
+        "H-19 \"Vulcan\""
     ],
+
+
+    "86K-a \"Bardiche\"": [
+        "86K-a \"Bardiche\"",
+        "86K-c \"Ranseur\""
+    ],
+
+
     "85K-b \"Falchion\"": [
         "85K-b \"Falchion\"",
         "85K-a \"Spatha\""
     ],
-    "HC-7 \"Ballista\"": [
-        "HC-7 \"Ballista\""
-    ],
+    
+    
     "03MM \"Caster\"": [
-        "03MM \"Caster\""
-    ],
-    "00MS \"Stinger\"": [
+        "03MM \"Caster\"",
         "00MS \"Stinger\""
     ],
+
+
+
     "UV-05a \"Argonaut\"": [
-        "UV-05a \"Argonaut\""
+        "UV-05a \"Argonaut\"",
+        "UV-5c \"Odyssey\""
     ],
     "UV-24 \"Icarus\"": [
         "UV-24 \"Icarus\""
     ],
-    "UV-5c \"Odyssey\"": [
-        "UV-5c \"Odyssey\""
-    ],
-    "T20 \"Ixion\" Tankette": [
-        "T20 \"Ixion\" Tankette"
-    ],
-    "T8 \"Gemini\"": [
-        "T8 \"Gemini\""
-    ],
-    "86K-c \"Ranseur\"": [
-        "86K-c \"Ranseur\""
-    ],
+    
+    
     "R-17 \"Retiarius\" Skirmisher": [
         "R-17 \"Retiarius\" Skirmisher"
     ],
-    "85V-g \"Talos\"": [
-        "85V-g \"Talos\""
-    ],
-    "T14 \"Vesta\" Tankette": [
-        "T14 \"Vesta\" Tankette"
-    ],
-    "945g \"Stygian Bolt\"": [
-        "945g \"Stygian Bolt\""
-    ],
-    "H-19 \"Vulcan\"": [
-        "H-19 \"Vulcan\""
-    ],
-    "R-12b \"Salva\"": [
-        "R-12b \"Salva\""
-    ],
-    "T13 \"Deioneus\" Rocket Battery": [
-        "T13 \"Deioneus\" Rocket Battery"
-    ],
+
+
+
     "BMS - Fabricator": [
         "BMS - Fabricator"
     ],
-    "Rooster - Junkwagon": [
-        "Rooster - Junkwagon"
-    ],
-    "Rooster - Lamploader": [
-        "Rooster - Lamploader"
-    ],
-    "Rooster - Tumblebox": [
-        "Rooster - Tumblebox"
-    ],
-    "GA-6 Cestus": [
-        "GA-6 Cestus"
-    ],
-    "AU-A150 Taurine Rigger": [
-        "AU-A150 Taurine Rigger"
-    ],
+
+
     "90T-v \"Nemesis\"": [
         "90T-v \"Nemesis\""
     ],
-    "BMS Stowheel": [
-        "BMS Stowheel"
+
+    "BMS Black Bolt": [
+        "BMS Black Bolt",
+        "BMS Holdout",
+        "BMS Longrider",
+        "BMS Roadhouse",
+        "BMS Rockhold"
     ],
-    "BMS Bloodtender": [
-        "BMS Bloodtender"
-    ],
+
+
+
     "30-250 \"Tisiphone\" Field Cannon": [
         "30-250 \"Tisiphone\" Field Cannon"
     ],
     "35-250 \"Alekto\" Heavy Cannon": [
         "35-250 \"Alekto\" Heavy Cannon"
+    ],
+    "Lance-36":[
+        "Lance-25 \"Hasta\"",
+        "Lance-36",
+        "Lance-46 \"Sarissa\""
+    ],
+    "O-75b \"Ares\"":[
+        "O-75b \"Ares\""
+    ],
+
+    "A51 Venti \"Deadalus\"":[
+        "A51 Venti \"Deadalus\""
+    ],
+    "Toxot-902 \"Blind Silver\"":[
+        "Toxot-902 \"Blind Silver\""
+    ],
+    "Mergo 4 \"Myrmidon\"":[
+        "Mergo 4 \"Myrmidon\""
+    ],
+    "V-5b Pegasus":[
+        "V-5b Pegasus"
+    ],
+    "V-1 Tzykalia":[
+        "V-1 Tzykalia"
+    ],
+    "Poseidon":[
+        "Poseidon"
+    ],
+    "BMS-Longhook":[
+        "BMS-Longhook"
+    ],
+    "BMS-Bluefin":[
+        "BMS-Bluefin"
+    ],
+    "Conquerer":[
+        "Conquerer"
+    ],
+    "Titan":[
+        "Titan"
+    ],
+    "AC-b \"Trident\"":[
+        "AC-b \"Trident\""
+    ],
+    "BMS-Bowhead":[
+        "BMS-Bowhead"
     ]
 }

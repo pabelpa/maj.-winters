@@ -335,6 +335,74 @@ const commands = [
         ),
     new SlashCommandBuilder().setName('tech-status').setDescription('View all currently unlocked items organized by category'),
     new SlashCommandBuilder().setName('tech-reset').setDescription('Reset all tech unlocks (use at the start of a new war)'),
+
+    // ─── Battalion system ────────────────────────────────────────────────────
+    new SlashCommandBuilder().setName('battalion').setDescription('Manage battalion TOE and logistics')
+        .addSubcommand(sub => sub.setName('create').setDescription('Create a battalion linked to a stockpile')
+            .addStringOption(o => o.setName('name').setDescription('Battalion name').setRequired(true))
+            .addStringOption(o => o.setName('stockpile').setDescription('Stockpile name to link').setRequired(true).setAutocomplete(true))
+        )
+        .addSubcommand(sub => sub.setName('set-forum').setDescription('Set the forum channel for battalion status posts (rebuilds all posts)')
+            .addChannelOption(o => o.setName('channel').setDescription('Forum channel to use for battalion posts').setRequired(true))
+        )
+        .addSubcommand(sub => sub.setName('status').setDescription('Overview of all battalions and their depletion status')
+        )
+        .addSubcommand(sub => sub.setName('delete').setDescription('Delete a battalion')
+            .addStringOption(o => o.setName('name').setDescription('Battalion name').setRequired(true).setAutocomplete(true))
+        )
+        .addSubcommand(sub => sub.setName('set-threshold').setDescription('Set the depletion % that triggers a logi ticket')
+            .addStringOption(o => o.setName('name').setDescription('Battalion name').setRequired(true).setAutocomplete(true))
+            .addIntegerOption(o => o.setName('percent').setDescription('Depletion threshold (1–99)').setRequired(true).setMinValue(1).setMaxValue(99))
+        )
+        .addSubcommand(sub => sub.setName('add-squad').setDescription('Add a squad type and variant to this battalion')
+            .addStringOption(o => o.setName('battalion').setDescription('Battalion name').setRequired(true).setAutocomplete(true))
+            .addStringOption(o => o.setName('squad_type').setDescription('Squad type (e.g. Rifle squad)').setRequired(true).setAutocomplete(true))
+            .addStringOption(o => o.setName('variant').setDescription('Squad variant (e.g. Rifle squad A)').setRequired(true).setAutocomplete(true))
+            .addIntegerOption(o => o.setName('count').setDescription('Number of squads of this type').setRequired(true).setMinValue(1))
+        )
+        .addSubcommand(sub => sub.setName('remove-squad').setDescription('Remove a squad entry from this battalion')
+            .addStringOption(o => o.setName('battalion').setDescription('Battalion name').setRequired(true).setAutocomplete(true))
+            .addStringOption(o => o.setName('squad_type').setDescription('Squad type').setRequired(true).setAutocomplete(true))
+            .addStringOption(o => o.setName('variant').setDescription('Squad variant').setRequired(true).setAutocomplete(true))
+        )
+        .addSubcommand(sub => sub.setName('request').setDescription('Create manifests for depleted battalion items')
+            .addStringOption(o => o.setName('name').setDescription('Battalion name').setRequired(true).setAutocomplete(true))
+            .addStringOption(o => o.setName('vehicle_type').setDescription('Vehicle used for transport').setRequired(false)
+                .addChoices(
+                    { name: 'Truck (15 freight)', value: 'truck' },
+                    { name: 'Flatbed — Shipping Container (60 freight)', value: 'flatbed' },
+                    { name: 'Train (requires tech unlock)', value: 'train' },
+                )
+            )
+        ),
+
+    // ─── Squad type system ───────────────────────────────────────────────────
+    new SlashCommandBuilder().setName('squad-type').setDescription('Manage squad type definitions in the TOE')
+        .addSubcommand(sub => sub.setName('create').setDescription('Create a new squad type')
+            .addStringOption(o => o.setName('name').setDescription('Squad type name').setRequired(true))
+            .addIntegerOption(o => o.setName('size').setDescription('Number of soldiers per squad').setRequired(true).setMinValue(1))
+        )
+        .addSubcommand(sub => sub.setName('set-forum').setDescription('Set the forum channel for squad TOE posts (rebuilds all posts)')
+            .addChannelOption(o => o.setName('channel').setDescription('Forum channel to use for squad TOE posts').setRequired(true))
+        )
+        .addSubcommand(sub => sub.setName('delete').setDescription('Delete a squad type')
+            .addStringOption(o => o.setName('name').setDescription('Squad type name').setRequired(true).setAutocomplete(true))
+        )
+        .addSubcommand(sub => sub.setName('add-variant').setDescription('Add a new variant to a squad type')
+            .addStringOption(o => o.setName('type').setDescription('Squad type name').setRequired(true).setAutocomplete(true))
+            .addStringOption(o => o.setName('variant').setDescription('Variant name (e.g. Rifle squad A)').setRequired(true))
+        )
+        .addSubcommand(sub => sub.setName('set-item').setDescription('Set an item amount in a variant TOE')
+            .addStringOption(o => o.setName('type').setDescription('Squad type name').setRequired(true).setAutocomplete(true))
+            .addStringOption(o => o.setName('variant').setDescription('Variant name').setRequired(true).setAutocomplete(true))
+            .addStringOption(o => o.setName('item').setDescription('Item name').setRequired(true))
+            .addNumberOption(o => o.setName('amount').setDescription('Crates per squad').setRequired(true).setMinValue(0))
+        )
+        .addSubcommand(sub => sub.setName('remove-item').setDescription('Remove an item from a variant TOE')
+            .addStringOption(o => o.setName('type').setDescription('Squad type name').setRequired(true).setAutocomplete(true))
+            .addStringOption(o => o.setName('variant').setDescription('Variant name').setRequired(true).setAutocomplete(true))
+            .addStringOption(o => o.setName('item').setDescription('Item name').setRequired(true))
+        ),
 ].map(command => command.toJSON())
 
 

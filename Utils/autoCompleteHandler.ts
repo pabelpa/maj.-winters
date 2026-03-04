@@ -169,6 +169,50 @@ const spGroupComplete = async (interaction: AutocompleteInteraction, collections
     await interaction.respond(filtered);
 }
 
+const battalionAC = async (interaction: AutocompleteInteraction, collections: any) => {
+    const focusedValue = interaction.options.getFocused().toLowerCase();
+    const battalions = await collections.battalions.find({ guildId: interaction.guildId }).toArray();
+    const filtered: Array<ApplicationCommandOptionChoiceData> = [];
+    for (const b of battalions) {
+        if (b.name.toLowerCase().includes(focusedValue)) {
+            filtered.push({ name: b.name, value: b.name });
+        }
+        if (filtered.length >= 25) break;
+    }
+    await interaction.respond(filtered);
+};
+
+const squadTypeAC = async (interaction: AutocompleteInteraction, _collections: any) => {
+    const focusedValue = interaction.options.getFocused().toLowerCase();
+    const toeData: any = NodeCacheObj.get('toe') ?? {};
+    const filtered: Array<ApplicationCommandOptionChoiceData> = [];
+    for (const typeName of Object.keys(toeData)) {
+        if (typeName.toLowerCase().includes(focusedValue)) {
+            filtered.push({ name: typeName, value: typeName });
+        }
+        if (filtered.length >= 25) break;
+    }
+    await interaction.respond(filtered);
+};
+
+const squadVariantAC = async (interaction: AutocompleteInteraction, _collections: any) => {
+    const focusedValue = interaction.options.getFocused().toLowerCase();
+    const toeData: any = NodeCacheObj.get('toe') ?? {};
+    // Try to read the squad type from either `squad_type` (battalion cmd) or `type` (squad-type cmd)
+    const typeName = interaction.options.getString('squad_type') ?? interaction.options.getString('type') ?? '';
+    const typeDef = toeData[typeName];
+    const filtered: Array<ApplicationCommandOptionChoiceData> = [];
+    if (typeDef) {
+        for (const variantName of Object.keys(typeDef).filter(k => k !== 'size')) {
+            if (variantName.toLowerCase().includes(focusedValue)) {
+                filtered.push({ name: variantName, value: variantName });
+            }
+            if (filtered.length >= 25) break;
+        }
+    }
+    await interaction.respond(filtered);
+};
+
 const techAC = async (interaction: AutocompleteInteraction, collections: any) => {
     const focusedValue = interaction.options.getFocused().toLowerCase();
     const vic_tech: any = NodeCacheObj.get("vic_tech");
@@ -217,8 +261,19 @@ const commands: any = {
     'deliver':{'resource': deliverAC,},
     'set-rank-roles':{'rank': rankRoleAC,},
     'give-xp':{'type': xpTypeAC,},
-    'unlock': {'tech': techAC,}
-
+    'unlock': {'tech': techAC,},
+    'battalion': {
+        'name': battalionAC,
+        'stockpile': spStockpileComplete,
+        'battalion': battalionAC,
+        'squad_type': squadTypeAC,
+        'variant': squadVariantAC,
+    },
+    'squad-type': {
+        'name': squadTypeAC,
+        'type': squadTypeAC,
+        'variant': squadVariantAC,
+    },
 }
 
 const autoCompleteHandler = async (interaction: AutocompleteInteraction) => {

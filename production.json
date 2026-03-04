@@ -1,0 +1,3678 @@
+[
+    {
+        "name": ".44",
+        "category": "Small Arms",
+        "crateSize": 40,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 40
+                },
+                "time": 40,
+                "output": {
+                    ".44 Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "“Dawn” Ve.II",
+        "category": "Heavy Arms",
+        "crateSize": 3,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Mass Production Factory (Special Weapons)": {
+                "input": {
+                    "Processed Construction Materials": 3,
+                    "Assembly Materials II": 5
+                },
+                "time": 75,
+                "output": {
+                    "“Dawn” Ve.II Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "“Dusk” ce.III",
+        "category": "Small Arms",
+        "crateSize": 20,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Refined Materials": 15
+                },
+                "time": 80,
+                "output": {
+                    "“Dusk” ce.III Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "“Lionclaw” mc.VIII",
+        "category": "Small Arms",
+        "crateSize": 20,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 120
+                },
+                "time": 80,
+                "output": {
+                    "“Lionclaw” mc.VIII Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "“Molten Wind” v.II Ammo",
+        "category": "Utility",
+        "crateSize": 10,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 160,
+                    "Heavy Explosive Materials": 20
+                },
+                "time": 100,
+                "output": {
+                    "“Molten Wind” v.II Ammo Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "“Molten Wind” v.II Flame Torch",
+        "category": "Heavy Arms",
+        "crateSize": 10,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 185,
+                    "Refined Materials": 25
+                },
+                "time": 50,
+                "output": {
+                    "“Molten Wind” v.II Flame Torch Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "“Quickhatch” Rt.I",
+        "category": "Heavy Arms",
+        "crateSize": 3,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Mass Production Factory (Special Weapons)": {
+                "input": {
+                    "Processed Construction Materials": 10,
+                    "Assembly Materials I": 5
+                },
+                "time": 120,
+                "output": {
+                    "“Quickhatch” Rt.I Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "“The Pitch Gun” mc.V",
+        "category": "Small Arms",
+        "crateSize": 20,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 80
+                },
+                "time": 80,
+                "output": {
+                    "“The Pitch Gun” mc.V Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "“Typhon” ra.XII",
+        "category": "Heavy Arms",
+        "crateSize": 5,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 100,
+                    "Refined Materials": 5
+                },
+                "time": 125,
+                "output": {
+                    "“Typhon” ra.XII Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "00MS “Stinger”",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory I": {
+                "time": 180,
+                "requiredVehicle": "03MM “Caster”"
+            }
+        }
+    },
+    {
+        "name": "03MM “Caster”",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 20,
+        "bMPF": true,
+        "production": {}
+    },
+    {
+        "name": "12.7mm",
+        "category": "Small Arms",
+        "crateSize": 20,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 100
+                },
+                "time": 70,
+                "output": {
+                    "12.7mm Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "120-68 “Koronides” Field Gun",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 20,
+        "bMPF": true,
+        "production": {}
+    },
+    {
+        "name": "120mm",
+        "category": "Heavy Ammunition",
+        "crateSize": 5,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Ammunition Factory": {
+                "input": {
+                    "Basic Materials": 120,
+                    "Heavy Explosive Materials": 10
+                },
+                "time": 55,
+                "output": {
+                    "120mm Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "14.5mm",
+        "category": "Heavy Arms",
+        "crateSize": 10,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 100
+                },
+                "time": 100,
+                "output": {
+                    "14.5mm Crate": 1
+                }
+            },
+            "Mass Production Factory (Infantry Ammo)": {
+                "input": {
+                    "Construction Materials": 110
+                },
+                "time": 9000,
+                "output": {
+                    "14.5mm Crate": 10
+                }
+            }
+        }
+    },
+    {
+        "name": "150mm",
+        "category": "Heavy Ammunition",
+        "crateSize": 5,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Ammunition Factory": {
+                "input": {
+                    "Basic Materials": 120,
+                    "Heavy Explosive Materials": 60
+                },
+                "time": 65,
+                "output": {
+                    "150mm Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "20mm",
+        "category": "Heavy Ammunition",
+        "crateSize": 5,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Ammunition Factory": {
+                "input": {
+                    "Basic Materials": 120
+                },
+                "time": 55,
+                "output": {
+                    "20mm Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "250mm \"Fury\" Shell",
+        "category": "Heavy Ammunition",
+        "crateSize": 5,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Ammunition Factory": {
+                "input": {
+                    "Basic Materials": 250,
+                    "Heavy Explosive Materials": 200
+                },
+                "time": 250,
+                "output": {
+                    "250mm \"Fury\" Shell Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "250mm \"Purity\" Shell",
+        "category": "Heavy Ammunition",
+        "crateSize": 5,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Ammunition Factory": {
+                "input": {
+                    "Basic Materials": 120,
+                    "Heavy Explosive Materials": 100
+                },
+                "time": 150,
+                "output": {
+                    "250mm \"Purity\" Shell Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "30-250 “Tisiphone” Field Cannon",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": true,
+        "production": {}
+    },
+    {
+        "name": "300mm",
+        "category": "Heavy Ammunition",
+        "crateSize": 1,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "30mm",
+        "category": "Heavy Arms",
+        "crateSize": 20,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 80,
+                    "Explosive Materials": 40
+                },
+                "time": 100,
+                "output": {
+                    "30mm Crate": 1
+                }
+            },
+            "Mass Production Factory (Heavy Ammo)": {
+                "input": {
+                    "Construction Materials": 45,
+                    "Explosive Materials": 220
+                },
+                "time": 9000,
+                "output": {
+                    "30mm Crate": 10
+                }
+            }
+        }
+    },
+    {
+        "name": "3C-High Explosive Rocket",
+        "category": "Heavy Ammunition",
+        "crateSize": 1,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "40-250 “Alekto” Heavy Cannon",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory I (Weapons Platform Assembly)": {
+                "time": 420,
+                "requiredVehicle": "30-250 “Tisiphone” Field Cannon"
+            }
+        }
+    },
+    {
+        "name": "40-45 “Smelter”",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory I (Light Vehicle Assembly)": {
+                "time": 300,
+                "requiredVehicle": "AA-2 \"Battering Ram\""
+            }
+        }
+    },
+    {
+        "name": "40mm",
+        "category": "Heavy Ammunition",
+        "crateSize": 20,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Ammunition Factory": {
+                "input": {
+                    "Basic Materials": 160,
+                    "Explosive Materials": 240
+                },
+                "time": 200,
+                "output": {
+                    "40mm Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "4C-Fire Rocket",
+        "category": "Heavy Ammunition",
+        "crateSize": 1,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "68mm",
+        "category": "Heavy Ammunition",
+        "crateSize": 20,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Ammunition Factory": {
+                "input": {
+                    "Basic Materials": 120,
+                    "Explosive Materials": 240
+                },
+                "time": 200,
+                "output": {
+                    "68mm Crate": 1
+                }
+            },
+            "Mass Production Factory (Heavy Ammo)": {
+                "input": {
+                    "Construction Materials": 130,
+                    "Explosive Materials": 1320
+                },
+                "time": 18000,
+                "output": {
+                    "68mm Crate": 10
+                }
+            }
+        }
+    },
+    {
+        "name": "7.62mm",
+        "category": "Small Arms",
+        "crateSize": 40,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 80
+                },
+                "time": 50,
+                "output": {
+                    "7.62mm Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "7.92mm",
+        "category": "Small Arms",
+        "crateSize": 30,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 120
+                },
+                "time": 60,
+                "output": {
+                    "7.92mm Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "75mm",
+        "category": "Heavy Ammunition",
+        "crateSize": 1,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "85K-a “Spatha”",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory I (Tank Assembly)": {
+                "time": 420,
+                "requiredVehicle": "85K-b “Falchion”"
+            }
+        }
+    },
+    {
+        "name": "85K-b “Falchion”",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 12,
+        "bMPF": true,
+        "production": {}
+    },
+    {
+        "name": "85V-g \"Talos\"",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory I (Weapons Platform Assembly)": {
+                "time": 600,
+                "requiredVehicle": "85K-b “Falchion”"
+            }
+        }
+    },
+    {
+        "name": "86K-a “Bardiche”",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 20,
+        "bMPF": true,
+        "production": {}
+    },
+    {
+        "name": "86K-c “Ranseur”",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory I (Tank Assembly)": {
+                "time": 420,
+                "requiredVehicle": "86K-a “Bardiche”"
+            }
+        }
+    },
+    {
+        "name": "8mm",
+        "category": "Small Arms",
+        "crateSize": 40,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 40
+                },
+                "time": 20,
+                "output": {
+                    "8mm Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "90T-v “Nemesis”",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": true,
+        "production": {}
+    },
+    {
+        "name": "912 Shrike Rounds",
+        "category": "Heavy Ammunition",
+        "crateSize": 5,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "94.5mm",
+        "category": "Heavy Ammunition",
+        "crateSize": 1,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "945g “Stygian Bolt”",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory I (Weapons Platform Assembly)": {
+                "time": 420,
+                "requiredVehicle": "AA-2 \"Battering Ram\""
+            }
+        }
+    },
+    {
+        "name": "950-70b Anti-Aircraft Shell",
+        "category": "Heavy Ammunition",
+        "crateSize": 5,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Ammunition Factory": {
+                "input": {
+                    "Basic Materials": 100,
+                    "Heavy Explosive Materials": 15
+                },
+                "time": 65,
+                "output": {
+                    "950-70b Anti-Aircraft Shell Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "9mm",
+        "category": "Small Arms",
+        "crateSize": 40,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 80
+                },
+                "time": 50,
+                "output": {
+                    "9mm Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "A0E-9 Rocket Body",
+        "category": "Shippables",
+        "bCrated": false,
+        "freight": 3,
+        "production": {}
+    },
+    {
+        "name": "A0E-9 Rocket Booster",
+        "category": "Shippables",
+        "bCrated": false,
+        "freight": 3,
+        "production": {}
+    },
+    {
+        "name": "A0E-9 Rocket Warhead",
+        "category": "Shippables",
+        "bCrated": false,
+        "freight": 3,
+        "production": {}
+    },
+    {
+        "name": "A51 Venti “Daedalus”",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "AA-2 \"Battering Ram\"",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": true,
+        "production": {}
+    },
+    {
+        "name": "AB-11 “Doru”",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory I (Light Vehicle Assembly)": {
+                "time": 300,
+                "requiredVehicle": "AB-8 “Acheron”"
+            }
+        }
+    },
+    {
+        "name": "AB-8 “Acheron”",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "Abisme AT-99 Mine",
+        "category": "Utility",
+        "crateSize": 10,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "AC-b “Trident”",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory III": {
+                "time": 21600
+            }
+        }
+    },
+    {
+        "name": "Aegis Steelbreaker K5a",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory II (Train Assembly)": {
+                "time": 1800
+            }
+        }
+    },
+    {
+        "name": "Aircraft Radar Parts",
+        "category": "Shippables",
+        "bCrated": false,
+        "freight": 3,
+        "production": {}
+    },
+    {
+        "name": "Aluminum Alloy",
+        "category": "Resource",
+        "subCategory": "Tech Mats",
+        "bCrated": true,
+        "crateSize": 20,
+        "freight": 1,
+        "production": {}
+    },
+    {
+        "name": "Anti-Tank Sticky Bomb",
+        "category": "Heavy Arms",
+        "crateSize": 10,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 50,
+                    "Explosive Materials": 100
+                },
+                "time": 75,
+                "output": {
+                    "Anti-Tank Sticky Bomb Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "AP/RPG",
+        "category": "Heavy Arms",
+        "crateSize": 15,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 60,
+                    "Explosive Materials": 150
+                },
+                "time": 100,
+                "output": {
+                    "AP/RPG Crate": 1
+                }
+            },
+            "Mass Production Factory (Heavy Ammo)": {
+                "input": {
+                    "Construction Materials": 65,
+                    "Explosive Materials": 825
+                },
+                "time": 9000,
+                "output": {
+                    "AP/RPG Crate": 10
+                }
+            }
+        }
+    },
+    {
+        "name": "ARC/RPG",
+        "category": "Heavy Arms",
+        "crateSize": 15,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 60,
+                    "Explosive Materials": 150
+                },
+                "time": 100,
+                "output": {
+                    "ARC/RPG Crate": 1
+                }
+            },
+            "Mass Production Factory (Heavy Ammo)": {
+                "input": {
+                    "Construction Materials": 65,
+                    "Explosive Materials": 825
+                },
+                "time": 9000,
+                "output": {
+                    "ARC/RPG Crate": 10
+                }
+            }
+        }
+    },
+    {
+        "name": "Argenti r.II Rifle",
+        "category": "Small Arms",
+        "crateSize": 20,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 100
+                },
+                "time": 70,
+                "output": {
+                    "Argenti r.II Rifle Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Armoured Fighting Tractor",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": true,
+        "production": {}
+    },
+    {
+        "name": "Assembly Materials I",
+        "category": "Supplies",
+        "crateSize": 1,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "Assembly Materials II",
+        "category": "Supplies",
+        "crateSize": 1,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "Assembly Materials III",
+        "category": "Supplies",
+        "crateSize": 1,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "Assembly Materials IV",
+        "category": "Supplies",
+        "crateSize": 1,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "Assembly Materials V",
+        "category": "Supplies",
+        "crateSize": 1,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "AU-A150 Taurine Rigger",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory I (Light Vehicle Assembly)": {
+                "time": 600
+            }
+        }
+    },
+    {
+        "name": "Bandages",
+        "category": "Medical",
+        "crateSize": 50,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 80
+                },
+                "time": 40,
+                "output": {
+                    "Bandages Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Bane 45",
+        "category": "Heavy Arms",
+        "crateSize": 5,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 150,
+                    "Refined Materials": 40
+                },
+                "time": 125,
+                "output": {
+                    "Bane 45 Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Barbed Wire",
+        "category": "Utility",
+        "crateSize": 5,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "Basic Materials",
+        "category": "Resource",
+        "subCategory": "Materials",
+        "bCrated": true,
+        "crateSize": 100,
+        "freight": 1,
+        "production": {}
+    },
+    {
+        "name": "Bellweather by VAC",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": true,
+        "production": {}
+    },
+    {
+        "name": "Binoculars",
+        "category": "Utility",
+        "crateSize": 5,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 75
+                },
+                "time": 50,
+                "output": {
+                    "Binoculars Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Blood Plasma",
+        "category": "Medical",
+        "crateSize": 50,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 80
+                },
+                "time": 40,
+                "output": {
+                    "Blood Plasma Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Blumfield LK205",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "BMS - Aquatipper",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": true,
+        "production": {}
+    },
+    {
+        "name": "BMS - Bluefin",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory III": {
+                "time": 28800
+            }
+        }
+    },
+    {
+        "name": "BMS - Bowhead",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory III": {
+                "time": 14400
+            }
+        }
+    },
+    {
+        "name": "BMS - Class 2 Mobile Auto-Crane",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": true,
+        "production": {}
+    },
+    {
+        "name": "BMS - Fabricator",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory I (Light Vehicle Assembly)": {
+                "time": 900,
+                "requiredVehicle": "BMS - Universal Assembly Rig"
+            }
+        }
+    },
+    {
+        "name": "BMS - Grouper",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "BMS - Ironship",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": true,
+        "production": {}
+    },
+    {
+        "name": "BMS - Longhook",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory III": {
+                "time": 14400
+            }
+        }
+    },
+    {
+        "name": "BMS - Overseer Sky-Hauler",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "BMS - Packmule Flatbed",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": true,
+        "production": {}
+    },
+    {
+        "name": "BMS - Scrap Hauler",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory I (Light Vehicle Assembly)": {
+                "time": 900
+            }
+        }
+    },
+    {
+        "name": "BMS - Universal Assembly Rig",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": true,
+        "production": {}
+    },
+    {
+        "name": "BMS Black Bolt",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory II": {
+                "time": 21600
+            }
+        }
+    },
+    {
+        "name": "BMS Bloodtender",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory II (Train Assembly)": {
+                "time": 129600
+            }
+        }
+    },
+    {
+        "name": "BMS Holdout",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory II": {
+                "time": 1800
+            }
+        }
+    },
+    {
+        "name": "BMS Linerunner",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory I": {
+                "time": 300
+            }
+        }
+    },
+    {
+        "name": "BMS Longrider",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory II": {
+                "time": 1800
+            }
+        }
+    },
+    {
+        "name": "BMS Mineseeker",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory I": {
+                "time": 900
+            }
+        }
+    },
+    {
+        "name": "BMS Railtruck",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory I": {
+                "time": 300
+            }
+        }
+    },
+    {
+        "name": "BMS Roadhouse",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory II": {
+                "time": 1800
+            }
+        }
+    },
+    {
+        "name": "BMS Rockhold",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory II": {
+                "time": 1800
+            }
+        }
+    },
+    {
+        "name": "BMS Stowheel",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory I": {
+                "time": 300
+            }
+        }
+    },
+    {
+        "name": "BMS Tinderbox",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory I": {
+                "time": 300
+            }
+        }
+    },
+    {
+        "name": "Bomastone Grenade",
+        "category": "Small Arms",
+        "crateSize": 25,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 100,
+                    "Explosive Materials": 40
+                },
+                "time": 100,
+                "output": {
+                    "Bomastone Grenade Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Buckhorn CCQ-18",
+        "category": "Utility",
+        "crateSize": 20,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 40
+                },
+                "time": 30,
+                "output": {
+                    "Buckhorn CCQ-18 Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Buckshot",
+        "category": "Small Arms",
+        "crateSize": 40,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 80
+                },
+                "time": 50,
+                "output": {
+                    "Buckshot Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Catara mo.II",
+        "category": "Small Arms",
+        "crateSize": 20,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Refined Materials": 15
+                },
+                "time": 80,
+                "output": {
+                    "Catara mo.II Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Catena rt.IV Auto-Rifle",
+        "category": "Small Arms",
+        "crateSize": 15,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 120
+                },
+                "time": 90,
+                "output": {
+                    "Catena rt.IV Auto-Rifle Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Centurion MV-2",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "Coal",
+        "category": "Resource",
+        "subCategory": "Raw Materials",
+        "bCrated": true,
+        "crateSize": null,
+        "freight": 1,
+        "production": {}
+    },
+    {
+        "name": "Coke",
+        "category": "Resource",
+        "subCategory": "Materials",
+        "bCrated": true,
+        "crateSize": null,
+        "freight": 1,
+        "production": {}
+    },
+    {
+        "name": "Cometa T2-9",
+        "category": "Small Arms",
+        "crateSize": 30,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 60
+                },
+                "time": 50,
+                "output": {
+                    "Cometa T2-9 Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Concrete Materials",
+        "category": "Supplies",
+        "crateSize": 1,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "Concrete Mixer",
+        "category": "Shippables",
+        "bCrated": false,
+        "freight": 3,
+        "production": {}
+    },
+    {
+        "name": "Conqueror",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory III": {
+                "time": 21600
+            }
+        }
+    },
+    {
+        "name": "Construction Equipment",
+        "category": "Shippables",
+        "bCrated": false,
+        "freight": 3,
+        "production": {}
+    },
+    {
+        "name": "Construction Materials",
+        "category": "Resource",
+        "subCategory": "Construction Materials",
+        "bCrated": true,
+        "crateSize": null,
+        "freight": 1,
+        "production": {}
+    },
+    {
+        "name": "Construction Parts",
+        "category": "Shippables",
+        "bCrated": false,
+        "freight": 3,
+        "production": {}
+    },
+    {
+        "name": "Copper Alloy",
+        "category": "Resource",
+        "subCategory": "Tech Mats",
+        "bCrated": true,
+        "crateSize": null,
+        "freight": 1,
+        "production": {}
+    },
+    {
+        "name": "Cremari Mortar",
+        "category": "Heavy Arms",
+        "crateSize": 5,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 100,
+                    "Refined Materials": 25
+                },
+                "time": 50,
+                "output": {
+                    "Cremari Mortar Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Critically Wounded Soldier",
+        "category": "Medical",
+        "crateSize": 50,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "Crow’s Foot Mine",
+        "category": "Utility",
+        "crateSize": 10,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "Damaged Components",
+        "category": "Resource",
+        "subCategory": "Raw Materials",
+        "bCrated": true,
+        "crateSize": null,
+        "freight": 1,
+        "production": {}
+    },
+    {
+        "name": "Das Krokodil by VAC",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": true,
+        "production": {}
+    },
+    {
+        "name": "Daucus isg.III",
+        "category": "Heavy Arms",
+        "crateSize": 5,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 100,
+                    "Refined Materials": 5
+                },
+                "time": 125,
+                "output": {
+                    "Daucus isg.III Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Diesel",
+        "category": "Supplies",
+        "crateSize": 1,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "E680-S Rudder Lock",
+        "category": "Utility",
+        "crateSize": 1,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "E681-B Hullbreaker Mine",
+        "category": "Heavy Ammunition",
+        "crateSize": 5,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Ammunition Factory": {
+                "input": {
+                    "Basic Materials": 125,
+                    "Explosive Materials": 35
+                },
+                "time": 125,
+                "output": {
+                    "E681-B Hullbreaker Mine Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Eleos Infantry Dagger",
+        "category": "Utility",
+        "crateSize": 10,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 200
+                },
+                "time": 100,
+                "output": {
+                    "Eleos Infantry Dagger Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Enriched Oil",
+        "category": "Supplies",
+        "crateSize": 1,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "Explosive Materials",
+        "category": "Resource",
+        "subCategory": "Materials",
+        "bCrated": true,
+        "crateSize": 20,
+        "freight": 1,
+        "production": {}
+    },
+    {
+        "name": "Fabri Rucksack",
+        "category": "Uniforms",
+        "crateSize": 15,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 100
+                },
+                "time": 90,
+                "output": {
+                    "Fabri Rucksack Crate": 1
+                }
+            },
+            "Mass Production Factory": {
+                "input": {
+                    "Construction Materials": 110
+                },
+                "time": 8100,
+                "output": {
+                    "Fabri Rucksack Crate": 10
+                }
+            }
+        }
+    },
+    {
+        "name": "Ferro 879",
+        "category": "Small Arms",
+        "crateSize": 20,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "First Aid Kit",
+        "category": "Medical",
+        "crateSize": 10,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 60
+                },
+                "time": 35,
+                "output": {
+                    "First Aid Kit Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Flame Ammo",
+        "category": "Heavy Ammunition",
+        "crateSize": 1,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "Flare Mortar Shell",
+        "category": "Heavy Arms",
+        "crateSize": 15,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 60,
+                    "Explosive Materials": 15
+                },
+                "time": 100,
+                "output": {
+                    "Flare Mortar Shell Crate": 1
+                }
+            },
+            "Mass Production Factory (Infantry Ammo)": {
+                "input": {
+                    "Explosive Materials": 80,
+                    "Construction Materials": 65
+                },
+                "time": 9000,
+                "output": {
+                    "Flare Mortar Shell Crate": 10
+                }
+            }
+        }
+    },
+    {
+        "name": "Fuscina pi.I",
+        "category": "Small Arms",
+        "crateSize": 20,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 140
+                },
+                "time": 80,
+                "output": {
+                    "Fuscina pi.I Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "G40 “Sagittarii”",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": true,
+        "production": {}
+    },
+    {
+        "name": "GA6 “Cestus”",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory I (Motor Pool)": {
+                "time": 600,
+                "requiredVehicle": "G40 “Sagittarii”"
+            }
+        }
+    },
+    {
+        "name": "Gas Mask",
+        "category": "Utility",
+        "crateSize": 20,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 160
+                },
+                "time": 100,
+                "output": {
+                    "Gas Mask Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Gas Mask Filter",
+        "category": "Utility",
+        "crateSize": 20,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 100
+                },
+                "time": 50,
+                "output": {
+                    "Gas Mask Filter Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Gravel",
+        "category": "Resource",
+        "subCategory": "Materials",
+        "bCrated": true,
+        "crateSize": null,
+        "freight": 1,
+        "production": {}
+    },
+    {
+        "name": "Green Ash Grenade",
+        "category": "Small Arms",
+        "crateSize": 10,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 140
+                },
+                "time": 100,
+                "output": {
+                    "Green Ash Grenade Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Grenadier’s Baldric",
+        "category": "Uniforms",
+        "crateSize": 15,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 100
+                },
+                "time": 90,
+                "output": {
+                    "Grenadier’s Baldric Crate": 1
+                }
+            },
+            "Mass Production Factory": {
+                "input": {
+                    "Construction Materials": 110
+                },
+                "time": 8100,
+                "output": {
+                    "Grenadier’s Baldric Crate": 10
+                }
+            }
+        }
+    },
+    {
+        "name": "H-10 “Pelekys”",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory I (Tank Assembly)": {
+                "time": 300,
+                "requiredVehicle": "H-5 \"Hatchet\""
+            }
+        }
+    },
+    {
+        "name": "H-19 “Vulcan”",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory I (Tank Assembly)": {
+                "time": 300,
+                "requiredVehicle": "H-5 \"Hatchet\""
+            }
+        }
+    },
+    {
+        "name": "H-5 \"Hatchet\"",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": true,
+        "production": {}
+    },
+    {
+        "name": "H-8 “Kranesca”",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory I (Tank Assembly)": {
+                "time": 300,
+                "requiredVehicle": "H-5 \"Hatchet\""
+            }
+        }
+    },
+    {
+        "name": "Hammer",
+        "category": "Utility",
+        "crateSize": 20,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "Havoc Charge",
+        "category": "Utility",
+        "crateSize": 5,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 75,
+                    "Heavy Explosive Materials": 40
+                },
+                "time": 60,
+                "output": {
+                    "Havoc Charge Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Havoc Charge Detonator",
+        "category": "Utility",
+        "crateSize": 5,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 75,
+                    "Heavy Explosive Materials": 20
+                },
+                "time": 60,
+                "output": {
+                    "Havoc Charge Detonator Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "HC-2 “Scorpion”",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": true,
+        "production": {}
+    },
+    {
+        "name": "HC-7 \"Ballista\"",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory I (Tank Assembly)": {
+                "time": 180,
+                "requiredVehicle": "HC-2 “Scorpion”"
+            }
+        }
+    },
+    {
+        "name": "Heavy Explosive Materials",
+        "category": "Resource",
+        "subCategory": "Materials",
+        "bCrated": true,
+        "crateSize": 20,
+        "freight": 1,
+        "production": {}
+    },
+    {
+        "name": "Heavy Infantry Carrier",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "Heavy Oil",
+        "category": "Supplies",
+        "crateSize": 1,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "Heavy Topcoat",
+        "category": "Uniforms",
+        "crateSize": 15,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 100
+                },
+                "time": 90,
+                "output": {
+                    "Heavy Topcoat Crate": 1
+                }
+            },
+            "Mass Production Factory": {
+                "input": {
+                    "Construction Materials": 110
+                },
+                "time": 8100,
+                "output": {
+                    "Heavy Topcoat Crate": 10
+                }
+            }
+        }
+    },
+    {
+        "name": "HH-a “Javelin”",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": true,
+        "production": {}
+    },
+    {
+        "name": "HH-b “Hoplite”",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "HH-d “Peltast”",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "Hydra’s Whisper",
+        "category": "Utility",
+        "crateSize": 5,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 100,
+                    "Explosive Materials": 80
+                },
+                "time": 100,
+                "output": {
+                    "Hydra’s Whisper Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Ignifist 30",
+        "category": "Heavy Arms",
+        "crateSize": 10,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 85,
+                    "Explosive Materials": 70
+                },
+                "time": 75,
+                "output": {
+                    "Ignifist 30 Crate": 1
+                }
+            },
+            "Mass Production Factory (Infantry Ammo)": {
+                "input": {
+                    "Explosive Materials": 385,
+                    "Construction Materials": 95
+                },
+                "time": 6900,
+                "output": {
+                    "Ignifist 30 Crate": 10
+                }
+            }
+        }
+    },
+    {
+        "name": "Intelligence Center Parts",
+        "category": "Shippables",
+        "bCrated": false,
+        "freight": 3,
+        "production": {}
+    },
+    {
+        "name": "Interceptor PA-12",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "Iron Alloy",
+        "category": "Resource",
+        "subCategory": "Tech Mats",
+        "bCrated": true,
+        "crateSize": 20,
+        "freight": 1,
+        "production": {}
+    },
+    {
+        "name": "K-81e “Sombre”",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": true,
+        "production": {}
+    },
+    {
+        "name": "KLG901-2 Lunaire F",
+        "category": "Heavy Arms",
+        "crateSize": 5,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 50,
+                    "Refined Materials": 15
+                },
+                "time": 100,
+                "output": {
+                    "KLG901-2 Lunaire F Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "KRF1-750 Dragonfly",
+        "category": "Small Arms",
+        "crateSize": 15,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 130
+                },
+                "time": 150,
+                "output": {
+                    "KRF1-750 Dragonfly Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "KRN886-127 Gast Machine Gun",
+        "category": "Small Arms",
+        "crateSize": 5,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Refined Materials": 25
+                },
+                "time": 100,
+                "output": {
+                    "KRN886-127 Gast Machine Gun Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "KRR2-790 Omen",
+        "category": "Small Arms",
+        "crateSize": 15,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 155
+                },
+                "time": 90,
+                "output": {
+                    "KRR2-790 Omen Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "KRR3-792 Auger",
+        "category": "Small Arms",
+        "crateSize": 5,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 250,
+                    "Refined Materials": 30
+                },
+                "time": 250,
+                "output": {
+                    "KRR3-792 Auger Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Lamentum mm.IV",
+        "category": "Heavy Arms",
+        "crateSize": 5,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 100,
+                    "Refined Materials": 5
+                },
+                "time": 125,
+                "output": {
+                    "Lamentum mm.IV Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Lance-25 “Hasta”",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory II (Heavy Tank Assembly)": {
+                "time": 86400
+            }
+        }
+    },
+    {
+        "name": "Lance-36",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory II (Heavy Tank Assembly)": {
+                "time": 64800
+            }
+        }
+    },
+    {
+        "name": "Lance-46 “Sarissa”",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory II (Heavy Tank Assembly)": {
+                "time": 86400
+            }
+        }
+    },
+    {
+        "name": "Legion Vexillum",
+        "category": "Utility",
+        "crateSize": 5,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "Legionary’s Oilcoat",
+        "category": "Uniforms",
+        "crateSize": 15,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 100
+                },
+                "time": 90,
+                "output": {
+                    "Legionary’s Oilcoat Crate": 1
+                }
+            },
+            "Mass Production Factory": {
+                "input": {
+                    "Construction Materials": 110
+                },
+                "time": 8100,
+                "output": {
+                    "Legionary’s Oilcoat Crate": 10
+                }
+            }
+        }
+    },
+    {
+        "name": "Liaison Transmitter",
+        "category": "Utility",
+        "crateSize": 5,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 75
+                },
+                "time": 50,
+                "output": {
+                    "Liaison Transmitter Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Liquid Container",
+        "category": "Shippables",
+        "bCrated": false,
+        "freight": 3,
+        "production": {}
+    },
+    {
+        "name": "Listening Kit",
+        "category": "Utility",
+        "crateSize": 5,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 150
+                },
+                "time": 60,
+                "output": {
+                    "Listening Kit Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Maintenance Supplies",
+        "category": "Supplies",
+        "crateSize": 100,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 250
+                },
+                "time": 125,
+                "output": {
+                    "Maintenance Supplies Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Mammon 91-b",
+        "category": "Heavy Arms",
+        "crateSize": 20,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 100,
+                    "Explosive Materials": 20
+                },
+                "time": 80,
+                "output": {
+                    "Mammon 91-b Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Mark II Raidbreaker",
+        "category": "Heavy Ammunition",
+        "crateSize": 5,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "Material Pallet",
+        "category": "Shippables",
+        "bCrated": false,
+        "freight": 3,
+        "production": {}
+    },
+    {
+        "name": "Medic Fatigues",
+        "category": "Uniforms",
+        "crateSize": 15,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 100
+                },
+                "time": 90,
+                "output": {
+                    "Medic Fatigues Crate": 1
+                }
+            },
+            "Mass Production Factory": {
+                "input": {
+                    "Construction Materials": 110
+                },
+                "time": 8100,
+                "output": {
+                    "Medic Fatigues Crate": 10
+                }
+            }
+        }
+    },
+    {
+        "name": "Mergo-4 “Myrmidon”",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory II (Aircraft Assembly)": {
+                "time": 14400
+            }
+        }
+    },
+    {
+        "name": "Metal Beam",
+        "category": "Utility",
+        "crateSize": 5,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 25
+                },
+                "time": 20,
+                "output": {
+                    "Metal Beam Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Model-7 “Evie”",
+        "category": "Heavy Ammunition",
+        "crateSize": 1,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "Moray Torpedo",
+        "category": "Heavy Ammunition",
+        "crateSize": 1,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "Mortar Shell",
+        "category": "Heavy Arms",
+        "crateSize": 15,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 60,
+                    "Explosive Materials": 70
+                },
+                "time": 100,
+                "output": {
+                    "Mortar Shell Crate": 1
+                }
+            },
+            "Mass Production Factory (Infantry Ammo)": {
+                "input": {
+                    "Explosive Materials": 385,
+                    "Construction Materials": 65
+                },
+                "time": 9000,
+                "output": {
+                    "Mortar Shell Crate": 10
+                }
+            }
+        }
+    },
+    {
+        "name": "Mounted Fissura gd.I",
+        "category": "Heavy Arms",
+        "crateSize": 5,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 100,
+                    "Refined Materials": 5
+                },
+                "time": 125,
+                "output": {
+                    "Mounted Fissura gd.I Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Naval Hull Segments",
+        "category": "Shippables",
+        "bCrated": false,
+        "freight": 3,
+        "production": {}
+    },
+    {
+        "name": "Naval Shell Plating",
+        "category": "Shippables",
+        "bCrated": false,
+        "freight": 3,
+        "production": {}
+    },
+    {
+        "name": "Naval Turbine Components",
+        "category": "Shippables",
+        "bCrated": false,
+        "freight": 3,
+        "production": {}
+    },
+    {
+        "name": "O-75b \"Ares\"",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory II (Heavy Tank Assembly)": {
+                "time": 172800
+            }
+        }
+    },
+    {
+        "name": "Officialis’ Attire",
+        "category": "Uniforms",
+        "crateSize": 3,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 100
+                },
+                "time": 90,
+                "output": {
+                    "Officialis’ Attire Crate": 1
+                }
+            },
+            "Mass Production Factory": {
+                "input": {
+                    "Construction Materials": 110
+                },
+                "time": 8100,
+                "output": {
+                    "Officialis’ Attire Crate": 10
+                }
+            }
+        }
+    },
+    {
+        "name": "Oil",
+        "category": "Supplies",
+        "crateSize": 1,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "Paratrooper’s Ruck",
+        "category": "Utility",
+        "crateSize": 10,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Mass Production Factory (Special Weapons)": {
+                "input": {
+                    "Construction Materials": 20
+                },
+                "time": 60,
+                "output": {
+                    "Paratrooper’s Ruck Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Petrol",
+        "category": "Supplies",
+        "crateSize": 1,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "Pipe",
+        "category": "Supplies",
+        "crateSize": 2,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "PL-1 “Phalanx”",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": true,
+        "production": {}
+    },
+    {
+        "name": "Player Imposter",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "Poseidon",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory III": {
+                "time": 36000
+            }
+        }
+    },
+    {
+        "name": "Processed Construction Materials",
+        "category": "Supplies",
+        "crateSize": 1,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "PT-815 Smoke Grenade",
+        "category": "Small Arms",
+        "crateSize": 15,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 80
+                },
+                "time": 75,
+                "output": {
+                    "PT-815 Smoke Grenade Crate": 1
+                }
+            },
+            "Mass Production Factory (Infantry Ammo)": {
+                "input": {
+                    "Construction Materials": 135
+                },
+                "time": 6900,
+                "output": {
+                    "PT-815 Smoke Grenade Crate": 10
+                }
+            }
+        }
+    },
+    {
+        "name": "R-1 Hauler",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": true,
+        "production": {}
+    },
+    {
+        "name": "R-12 - “Salus” Ambulance",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": true,
+        "production": {}
+    },
+    {
+        "name": "R-12b - “Salva” Flame Truck",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory I": {
+                "time": 300,
+                "requiredVehicle": "R-12 - “Salus” Ambulance"
+            }
+        }
+    },
+    {
+        "name": "R-15 - “Chariot”",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": true,
+        "production": {}
+    },
+    {
+        "name": "R-17 “Retiarius” Skirmisher",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory I (Artillery Factory)": {
+                "time": 300,
+                "requiredVehicle": "R-1 Hauler"
+            }
+        }
+    },
+    {
+        "name": "R-5 “Atlas” Hauler",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": true,
+        "production": {}
+    },
+    {
+        "name": "R-5b “Sisyphus” Hauler",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory I": {
+                "time": 300,
+                "requiredVehicle": "R-1 Hauler"
+            }
+        }
+    },
+    {
+        "name": "R-9 “Speartip” Escort",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory I": {
+                "time": 300,
+                "requiredVehicle": "R-1 Hauler"
+            }
+        }
+    },
+    {
+        "name": "Radio",
+        "category": "Utility",
+        "crateSize": 5,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 75
+                },
+                "time": 50,
+                "output": {
+                    "Radio Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Radio Backpack",
+        "category": "Utility",
+        "crateSize": 5,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 150
+                },
+                "time": 75,
+                "output": {
+                    "Radio Backpack Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Rare Alloys",
+        "category": "Supplies",
+        "crateSize": 1,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "Rare Materials",
+        "category": "Supplies",
+        "crateSize": 1,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "Recon Camo",
+        "category": "Uniforms",
+        "crateSize": 15,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 100
+                },
+                "time": 90,
+                "output": {
+                    "Recon Camo Crate": 1
+                }
+            },
+            "Mass Production Factory": {
+                "input": {
+                    "Construction Materials": 110
+                },
+                "time": 8100,
+                "output": {
+                    "Recon Camo Crate": 10
+                }
+            }
+        }
+    },
+    {
+        "name": "Refined Materials",
+        "category": "Resource",
+        "subCategory": "Materials",
+        "bCrated": true,
+        "crateSize": 20,
+        "freight": 1,
+        "production": {}
+    },
+    {
+        "name": "Relic Materials",
+        "category": "Resource",
+        "subCategory": "",
+        "bCrated": true,
+        "crateSize": null,
+        "freight": 1,
+        "production": {}
+    },
+    {
+        "name": "Remex Garb",
+        "category": "Uniforms",
+        "crateSize": 15,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 100
+                },
+                "time": 90,
+                "output": {
+                    "Remex Garb Crate": 1
+                }
+            },
+            "Mass Production Factory": {
+                "input": {
+                    "Construction Materials": 110
+                },
+                "time": 8100,
+                "output": {
+                    "Remex Garb Crate": 10
+                }
+            }
+        }
+    },
+    {
+        "name": "Repurposed Truck",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": true,
+        "production": {}
+    },
+    {
+        "name": "Resource Container",
+        "category": "Shippables",
+        "bCrated": false,
+        "freight": 3,
+        "production": {}
+    },
+    {
+        "name": "Rooster - Junkwagon",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": true,
+        "production": {}
+    },
+    {
+        "name": "Rooster - Lamploader",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory I (Light Vehicle Assembly)": {
+                "time": 300,
+                "requiredVehicle": "Rooster - Junkwagon"
+            }
+        }
+    },
+    {
+        "name": "Rooster - Tumblebox",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory I (Light Vehicle Assembly)": {
+                "time": 300,
+                "requiredVehicle": "Rooster - Junkwagon"
+            }
+        }
+    },
+    {
+        "name": "RR-3 “Stolon” Tanker",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": true,
+        "production": {}
+    },
+    {
+        "name": "Sandbag",
+        "category": "Utility",
+        "crateSize": 5,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 15
+                },
+                "time": 15,
+                "output": {
+                    "Sandbag Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Shatter Missile",
+        "category": "Heavy Ammunition",
+        "crateSize": 5,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Ammunition Factory": {
+                "input": {
+                    "Basic Materials": 250,
+                    "Heavy Explosive Materials": 250
+                },
+                "time": 250,
+                "output": {
+                    "Shatter Missile Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Shipping Container",
+        "category": "Shippables",
+        "bCrated": false,
+        "freight": 3,
+        "production": {}
+    },
+    {
+        "name": "Shovel",
+        "category": "Utility",
+        "crateSize": 10,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 200
+                },
+                "time": 100,
+                "output": {
+                    "Shovel Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Shrapnel Mortar Shell",
+        "category": "Heavy Arms",
+        "crateSize": 15,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 60,
+                    "Explosive Materials": 20
+                },
+                "time": 100,
+                "output": {
+                    "Shrapnel Mortar Shell Crate": 1
+                }
+            },
+            "Mass Production Factory (Infantry Ammo)": {
+                "input": {
+                    "Explosive Materials": 110,
+                    "Construction Materials": 65
+                },
+                "time": 9000,
+                "output": {
+                    "Shrapnel Mortar Shell Crate": 10
+                }
+            }
+        }
+    },
+    {
+        "name": "Sledge Hammer",
+        "category": "Utility",
+        "crateSize": 10,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 200
+                },
+                "time": 100,
+                "output": {
+                    "Sledge Hammer Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Soldier Supplies",
+        "category": "Medical",
+        "crateSize": 10,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 80
+                },
+                "time": 80,
+                "output": {
+                    "Soldier Supplies Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Staff Car",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": true,
+        "production": {}
+    },
+    {
+        "name": "Steel Construction Materials",
+        "category": "Supplies",
+        "crateSize": 1,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "Storm Cannon Parts",
+        "category": "Shippables",
+        "bCrated": false,
+        "freight": 3,
+        "production": {}
+    },
+    {
+        "name": "Storm Tank",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": true,
+        "production": {}
+    },
+    {
+        "name": "Strider",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": true,
+        "production": {}
+    },
+    {
+        "name": "Structure Parts",
+        "category": "Shippables",
+        "bCrated": false,
+        "freight": 3,
+        "production": {}
+    },
+    {
+        "name": "T12 “Actaeon” Tankette",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": true,
+        "production": {}
+    },
+    {
+        "name": "T13 “Deioneus” Rocket Battery",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory I (Artillery Factory)": {
+                "time": 600,
+                "requiredVehicle": "T12 “Actaeon” Tankette"
+            }
+        }
+    },
+    {
+        "name": "T14 “Vesta” Tankette",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory I (Motor Pool)": {
+                "time": 600,
+                "requiredVehicle": "T12 “Actaeon” Tankette"
+            }
+        }
+    },
+    {
+        "name": "T20 “Ixion” Tankette",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory I (Motor Pool)": {
+                "time": 300,
+                "requiredVehicle": "T12 “Actaeon” Tankette"
+            }
+        }
+    },
+    {
+        "name": "T3 “Xiphos”",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": true,
+        "production": {}
+    },
+    {
+        "name": "T5 “Percutio”",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory I (Motor Pool)": {
+                "time": 300,
+                "requiredVehicle": "T3 “Xiphos”"
+            }
+        }
+    },
+    {
+        "name": "T8 “Gemini”",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory I (Motor Pool)": {
+                "time": 300,
+                "requiredVehicle": "T3 “Xiphos”"
+            }
+        }
+    },
+    {
+        "name": "Tankman’s Coveralls",
+        "category": "Uniforms",
+        "crateSize": 15,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 100
+                },
+                "time": 90,
+                "output": {
+                    "Tankman’s Coveralls Crate": 1
+                }
+            },
+            "Mass Production Factory": {
+                "input": {
+                    "Construction Materials": 110
+                },
+                "time": 8100,
+                "output": {
+                    "Tankman’s Coveralls Crate": 10
+                }
+            }
+        }
+    },
+    {
+        "name": "Tempest Cannon RA-2",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory II (Train Assembly)": {
+                "time": 259200
+            }
+        }
+    },
+    {
+        "name": "Thermal Shielding",
+        "category": "Supplies",
+        "crateSize": 1,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "Titan",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "Toxot-902 “Blind Silver”",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory II (Aircraft Assembly)": {
+                "time": 14400
+            }
+        }
+    },
+    {
+        "name": "Trauma Kit",
+        "category": "Medical",
+        "crateSize": 10,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 80
+                },
+                "time": 50,
+                "output": {
+                    "Trauma Kit Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Tremola Grenade GPb-1",
+        "category": "Heavy Arms",
+        "crateSize": 20,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 75,
+                    "Explosive Materials": 100
+                },
+                "time": 80,
+                "output": {
+                    "Tremola Grenade GPb-1 Crate": 1
+                }
+            },
+            "Mass Production Factory (Heavy Ammo)": {
+                "input": {
+                    "Construction Materials": 80,
+                    "Explosive Materials": 550
+                },
+                "time": 7200,
+                "output": {
+                    "Tremola Grenade GPb-1 Crate": 10
+                }
+            }
+        }
+    },
+    {
+        "name": "Tripod",
+        "category": "Utility",
+        "crateSize": 5,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 100
+                },
+                "time": 60,
+                "output": {
+                    "Tripod Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Type B - “Lucian”",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": true,
+        "production": {}
+    },
+    {
+        "name": "Type C - “Charon”",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": true,
+        "production": {}
+    },
+    {
+        "name": "Underground Fortress Parts",
+        "category": "Shippables",
+        "bCrated": false,
+        "freight": 3,
+        "production": {}
+    },
+    {
+        "name": "Unexploded Ordnance",
+        "category": "Utility",
+        "crateSize": 5,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "Unstable Substances",
+        "category": "Supplies",
+        "crateSize": 1,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "UV-05a “Argonaut”",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": true,
+        "production": {}
+    },
+    {
+        "name": "UV-24 “Icarus”",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory I (Motor Pool)": {
+                "time": 180,
+                "requiredVehicle": "UV-05a “Argonaut”"
+            }
+        }
+    },
+    {
+        "name": "UV-5c “Odyssey”",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory I (Motor Pool)": {
+                "time": 180,
+                "requiredVehicle": "UV-05a “Argonaut”"
+            }
+        }
+    },
+    {
+        "name": "V-1 Tzykalia",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory II (Aircraft Assembly)": {
+                "time": 28800
+            }
+        }
+    },
+    {
+        "name": "V-5b Pegasus",
+        "category": "Vehicle",
+        "bCrated": false,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Vehicle Factory II (Aircraft Assembly)": {
+                "time": 21600
+            }
+        }
+    },
+    {
+        "name": "Velian Flak Vest",
+        "category": "Uniforms",
+        "crateSize": 10,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 200
+                },
+                "time": 90,
+                "output": {
+                    "Velian Flak Vest Crate": 1
+                }
+            },
+            "Mass Production Factory": {
+                "input": {
+                    "Construction Materials": 220
+                },
+                "time": 8100,
+                "output": {
+                    "Velian Flak Vest Crate": 10
+                }
+            }
+        }
+    },
+    {
+        "name": "Venom c.II 35",
+        "category": "Heavy Arms",
+        "crateSize": 5,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 100,
+                    "Refined Materials": 15
+                },
+                "time": 50,
+                "output": {
+                    "Venom c.II 35 Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Volta r.I Repeater",
+        "category": "Small Arms",
+        "crateSize": 15,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": true,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 100
+                },
+                "time": 90,
+                "output": {
+                    "Volta r.I Repeater Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Water",
+        "category": "Supplies",
+        "crateSize": 1,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {}
+    },
+    {
+        "name": "Water Bucket",
+        "category": "Utility",
+        "crateSize": 50,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 80
+                },
+                "time": 40,
+                "output": {
+                    "Water Bucket Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Weather Station Parts",
+        "category": "Shippables",
+        "bCrated": false,
+        "freight": 3,
+        "production": {}
+    },
+    {
+        "name": "Wind Sock",
+        "category": "Utility",
+        "crateSize": 5,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 150
+                },
+                "time": 60,
+                "output": {
+                    "Wind Sock Crate": 1
+                }
+            }
+        }
+    },
+    {
+        "name": "Wrench",
+        "category": "Utility",
+        "crateSize": 5,
+        "bCrated": true,
+        "freight": 1,
+        "bMPF": false,
+        "production": {
+            "Factory": {
+                "input": {
+                    "Basic Materials": 75
+                },
+                "time": 50,
+                "output": {
+                    "Wrench Crate": 1
+                }
+            }
+        }
+    }
+]

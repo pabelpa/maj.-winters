@@ -3,6 +3,22 @@ import { EmptyStatement } from 'typescript';
 let db: Db
 let mongoClientObj: any;
 
+interface Battalion {
+    guildId: string;
+    name: string;
+    stockpileName: string;
+    squads: Array<{
+        squadType: string;
+        variant: string;
+        count: number;
+    }>;
+    depletionThreshold: number;
+    openManifestIds?: string[];   // ticketIds of currently open manifests for this battalion
+    forumThreadId?: string;       // forum thread in the battalion forum channel
+    createdAt: Date;
+    createdBy: string;
+}
+
 interface FAC {
     guildId: string;
     threadId: string;
@@ -31,6 +47,8 @@ interface GuildConfig {
     botChannelCategory?: string;
     activeRole?: string;
     inactiveRole?: string;
+    battalionForumChannelId?: string;  // forum channel for battalion status posts
+    squadToeForumChannelId?: string;   // forum channel for squad TOE variant posts
 }
 
 interface Ticket 
@@ -87,7 +105,7 @@ const getMongoClientObj = (): MongoClient => {
 const getCollections = (serverID?: any) => {
 
 
-    const db:Db = mongoClientObj.db('stockpiler')
+    const db:Db = mongoClientObj.db(process.env.MONGODB_DB ?? 'stockpiler')
     const collections = {
         stockpiles: db.collection('stockpiles'),
         targets: db.collection('targets'),
@@ -96,7 +114,8 @@ const getCollections = (serverID?: any) => {
         tickets:db.collection<Ticket>('tickets'),
         members:db.collection('members'),
         facs:db.collection<FAC>('facs'),
-        guildConfig: db.collection<GuildConfig>('guildConfig')
+        guildConfig: db.collection<GuildConfig>('guildConfig'),
+        battalions: db.collection<Battalion>('battalions')
     }
     return collections
     
@@ -105,3 +124,4 @@ const getCollections = (serverID?: any) => {
 
 
 export { open, getCollections, getMongoClientObj }
+export type { Battalion }

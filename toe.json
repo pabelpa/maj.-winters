@@ -1,6 +1,7 @@
 {
     "Rifle squad":{
-        "Rifle sqaud A":{
+        "size": 10,
+        "Rifle squad A":{
             "requirements":[],
             "TOE":{
                 "argenti":0.5,
@@ -8,7 +9,7 @@
                 "bomba":1
             }
         },
-        "Rifle sqaud B":{
+        "Rifle squad B":{
             "requirements":[
                 "smoke",
                 "Fuscina",
@@ -23,7 +24,7 @@
                 "bayonett":1
             }
         },
-        "Rifle sqaud C":{
+        "Rifle squad C":{
             "requirements":[
                 "smoke",
                 "catena"
@@ -37,18 +38,19 @@
             }
         }
     },
-    "Engineer squad":{},
-    "Special weapons squad":{},
-    "Mortar squad":{},
-    "CQB squad":{},
+    "Engineer squad":{ "size": 10 },
+    "Special weapons squad":{ "size": 10 },
+    "Mortar squad":{ "size": 10 },
+    "CQB squad":{ "size": 10 },
     "Sapper squad":{
-        "Sapper sqaud A":{
+        "size": 10,
+        "Sapper squad A":{
             "requirements":[],
             "TOE":{
                 "mammon":3
             }
         },
-        "Sapper sqaud B":{
+        "Sapper squad B":{
             "requirements":[
                 "smoke"
             ],
@@ -57,7 +59,7 @@
                 "smoke":1
             }
         },
-        "Sapper sqaud C":{
+        "Sapper squad C":{
             "requirements":[
                 "Lunaire",
                 "smoke"
@@ -68,7 +70,7 @@
                 "smoke":1
             }
         },
-        "Sapper sqaud D":{
+        "Sapper squad D":{
             "requirements":[
                 "Hydra",
                 "smoke"
@@ -78,7 +80,7 @@
                 "smoke":1
             }
         },
-        "Sapper sqaud E":{
+        "Sapper squad E":{
             "requirements":[
                 "havoc",
                 "smoke"
@@ -90,17 +92,17 @@
             }
         }
     },
-    "AT Field gun squad":{},
-    "Recon squad":{},
-    "AT squad":{},
-    "AT armor squad":{},
-    "GP armor squad":{},
-    "Siege armor squad":{},
-    "AP armor squad":{},
-    "Artillery Squad":{},
-    "Medic Squad":{},
-    "Marine Squad":{},
-    "Garrison squad":{},
-    "Support squad":{},
-    "Command squad":{}
+    "AT Field gun squad":{ "size": 10 },
+    "Recon squad":{ "size": 10 },
+    "AT squad":{ "size": 10 },
+    "AT armor squad":{ "size": 3 },
+    "GP armor squad":{ "size": 3 },
+    "Siege armor squad":{ "size": 3 },
+    "AP armor squad":{ "size": 3 },
+    "Artillery Squad":{ "size": 5 },
+    "Medic Squad":{ "size": 10 },
+    "Marine Squad":{ "size": 10 },
+    "Garrison squad":{ "size": 10 },
+    "Support squad":{ "size": 10 },
+    "Command squad":{ "size": 10 }
 }

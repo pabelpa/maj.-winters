@@ -1,0 +1,17 @@
+{
+    "truck": {
+        "label": "Truck",
+        "freight": 15,
+        "techRequired": null
+    },
+    "flatbed": {
+        "label": "Flatbed (Shipping Container)",
+        "freight": 60,
+        "techRequired": null
+    },
+    "train": {
+        "label": "Train",
+        "freight": 90,
+        "techRequired": null
+    }
+}

@@ -73,6 +73,9 @@ import setChannelGeneral from "./Commands/set-channel-general";
 import unlock from "./Commands/unlock";
 import techStatus from "./Commands/tech-status";
 import techReset from "./Commands/tech-reset";
+import { battalion } from "./Commands/battalion";
+import { squadType } from "./Commands/squad-type";
+import checkBattalionDepletion from "./Utils/checkBattalionDepletion";
 
 
 require("dotenv").config();
@@ -163,6 +166,30 @@ const commandMapping: any = {
   'unlock': { sub: false, vars: 1, handler: unlock },
   'tech-status': { sub: false, vars: 1, handler: techStatus },
   'tech-reset': { sub: false, vars: 1, handler: techReset },
+  'battalion': {
+    sub: true,
+    handler: {
+      create:           { func: battalion.create,           vars: 2 },
+      'set-forum':      { func: battalion['set-forum'],     vars: 2 },
+      status:           { func: battalion.status,           vars: 1 },
+      delete:           { func: battalion.delete,           vars: 2 },
+      'set-threshold':  { func: battalion['set-threshold'], vars: 2 },
+      'add-squad':      { func: battalion['add-squad'],     vars: 2 },
+      'remove-squad':   { func: battalion['remove-squad'],  vars: 2 },
+      request:          { func: battalion.request,          vars: 2 },
+    },
+  },
+  'squad-type': {
+    sub: true,
+    handler: {
+      create:         { func: squadType.create,         vars: 1 },
+      'set-forum':    { func: squadType['set-forum'],   vars: 2 },
+      delete:         { func: squadType.delete,         vars: 2 },
+      'add-variant':  { func: squadType['add-variant'], vars: 2 },
+      'set-item':     { func: squadType['set-item'],    vars: 2 },
+      'remove-item':  { func: squadType['remove-item'], vars: 2 },
+    },
+  },
 };
 const timerBP = [60 * 5, 60 * 10, 60 * 30, 60 * 60, 60 * 60 * 6, 60 * 60 * 12]; // Timer breakpoints in seconds
 
@@ -478,8 +505,16 @@ const main = async (): Promise<void> => {
 
   let inf_tech = JSON.parse(await fs.promises.readFile("inf_technology.json", 'utf-8'))
   let vic_tech = JSON.parse(await fs.promises.readFile("vic_technology.json", 'utf-8'))
+  let toe = JSON.parse(await fs.promises.readFile("toe.json", 'utf-8'))
+  let vehicles = JSON.parse(await fs.promises.readFile("vehicles.json", 'utf-8'))
+  const productionRaw: any[] = JSON.parse(await fs.promises.readFile("production.json", 'utf-8'))
+  // Index production data by lowercase name for fast freight lookups
+  const productionMap = new Map<string, any>(productionRaw.map((e: any) => [e.name.toLowerCase(), e]))
   NodeCacheObj.set("vic_tech", vic_tech);
   NodeCacheObj.set("inf_tech", inf_tech);
+  NodeCacheObj.set("toe", toe);
+  NodeCacheObj.set("vehicles", vehicles);
+  NodeCacheObj.set("production", productionMap);
 
 
   NodeCacheObj.set("itemList", itemList);
@@ -497,6 +532,7 @@ const main = async (): Promise<void> => {
   if (await open()) {
     setInterval(checkTimeNotifs, 1000 * 60, client, false, true);
     setInterval(resetXp, 1000 * 60*60*24);
+    setInterval(checkBattalionDepletion, 1000 * 60 * 5, client);
 
     // Start HTTP server
     const server = http.createServer((request, response) => {
