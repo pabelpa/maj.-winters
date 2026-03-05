@@ -722,7 +722,7 @@
     {
         "name": "AA-2 \"Battering Ram\"",
         "category": "Vehicle",
-        "bCrated": false,
+        "bCrated": true,
         "freight": 1,
         "bMPF": true,
         "production": {}
@@ -743,9 +743,9 @@
     {
         "name": "AB-8 \"Acheron\"",
         "category": "Vehicle",
-        "bCrated": false,
+        "bCrated": true,
         "freight": 1,
-        "bMPF": false,
+        "bMPF": true,
         "production": {}
     },
     {
@@ -1021,7 +1021,7 @@
     {
         "name": "Bellweather by VAC",
         "category": "Vehicle",
-        "bCrated": false,
+        "bCrated": true,
         "freight": 1,
         "bMPF": true,
         "production": {}
@@ -1075,8 +1075,9 @@
     {
         "name": "BMS - Aquatipper",
         "category": "Vehicle",
-        "bCrated": false,
-        "freight": 1,
+        "bCrated": true,
+        "crateSize": 3,
+        "freight": 60,
         "bMPF": true,
         "production": {}
     },
@@ -1084,7 +1085,7 @@
         "name": "BMS - Bluefin",
         "category": "Vehicle",
         "bCrated": false,
-        "freight": 1,
+        "freight": 60,
         "bMPF": false,
         "production": {
             "Vehicle Factory III": {

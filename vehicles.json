@@ -1,17 +1,22 @@
 {
     "truck": {
-        "label": "Truck",
+        "label": "R-1 Hauler",
         "freight": 15,
         "techRequired": null
     },
     "flatbed": {
-        "label": "Flatbed (Shipping Container)",
+        "label": "BMS - Packmule Flatbed (Shipping Container)",
         "freight": 60,
+        "techRequired": null
+    },
+    "ironship": {
+        "label": "BMS - Ironship",
+        "freight": 300,
         "techRequired": null
     },
     "train": {
         "label": "Train",
-        "freight": 90,
-        "techRequired": null
+        "freight": 720,
+        "techRequired": "BMS Black Bolt"
     }
 }
