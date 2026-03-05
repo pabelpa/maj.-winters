@@ -19,7 +19,7 @@
         }
     },
     {
-        "name": "“Dawn” Ve.II",
+        "name": "\"Dawn\" Ve.II",
         "category": "Heavy Arms",
         "crateSize": 3,
         "bCrated": true,
@@ -33,13 +33,13 @@
                 },
                 "time": 75,
                 "output": {
-                    "“Dawn” Ve.II Crate": 1
+                    "\"Dawn\" Ve.II Crate": 1
                 }
             }
         }
     },
     {
-        "name": "“Dusk” ce.III",
+        "name": "\"Dusk\" ce.III",
         "category": "Small Arms",
         "crateSize": 20,
         "bCrated": true,
@@ -52,13 +52,13 @@
                 },
                 "time": 80,
                 "output": {
-                    "“Dusk” ce.III Crate": 1
+                    "\"Dusk\" ce.III Crate": 1
                 }
             }
         }
     },
     {
-        "name": "“Lionclaw” mc.VIII",
+        "name": "\"Lionclaw\" mc.VIII",
         "category": "Small Arms",
         "crateSize": 20,
         "bCrated": true,
@@ -71,13 +71,13 @@
                 },
                 "time": 80,
                 "output": {
-                    "“Lionclaw” mc.VIII Crate": 1
+                    "\"Lionclaw\" mc.VIII Crate": 1
                 }
             }
         }
     },
     {
-        "name": "“Molten Wind” v.II Ammo",
+        "name": "\"Molten Wind\" v.II Ammo",
         "category": "Utility",
         "crateSize": 10,
         "bCrated": true,
@@ -91,13 +91,13 @@
                 },
                 "time": 100,
                 "output": {
-                    "“Molten Wind” v.II Ammo Crate": 1
+                    "\"Molten Wind\" v.II Ammo Crate": 1
                 }
             }
         }
     },
     {
-        "name": "“Molten Wind” v.II Flame Torch",
+        "name": "\"Molten Wind\" v.II Flame Torch",
         "category": "Heavy Arms",
         "crateSize": 10,
         "bCrated": true,
@@ -111,13 +111,13 @@
                 },
                 "time": 50,
                 "output": {
-                    "“Molten Wind” v.II Flame Torch Crate": 1
+                    "\"Molten Wind\" v.II Flame Torch Crate": 1
                 }
             }
         }
     },
     {
-        "name": "“Quickhatch” Rt.I",
+        "name": "\"Quickhatch\" Rt.I",
         "category": "Heavy Arms",
         "crateSize": 3,
         "bCrated": true,
@@ -131,13 +131,13 @@
                 },
                 "time": 120,
                 "output": {
-                    "“Quickhatch” Rt.I Crate": 1
+                    "\"Quickhatch\" Rt.I Crate": 1
                 }
             }
         }
     },
     {
-        "name": "“The Pitch Gun” mc.V",
+        "name": "\"The Pitch Gun\" mc.V",
         "category": "Small Arms",
         "crateSize": 20,
         "bCrated": true,
@@ -150,13 +150,13 @@
                 },
                 "time": 80,
                 "output": {
-                    "“The Pitch Gun” mc.V Crate": 1
+                    "\"The Pitch Gun\" mc.V Crate": 1
                 }
             }
         }
     },
     {
-        "name": "“Typhon” ra.XII",
+        "name": "\"Typhon\" ra.XII",
         "category": "Heavy Arms",
         "crateSize": 5,
         "bCrated": true,
@@ -170,13 +170,13 @@
                 },
                 "time": 125,
                 "output": {
-                    "“Typhon” ra.XII Crate": 1
+                    "\"Typhon\" ra.XII Crate": 1
                 }
             }
         }
     },
     {
-        "name": "00MS “Stinger”",
+        "name": "00MS \"Stinger\"",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -184,12 +184,12 @@
         "production": {
             "Vehicle Factory I": {
                 "time": 180,
-                "requiredVehicle": "03MM “Caster”"
+                "requiredVehicle": "03MM \"Caster\""
             }
         }
     },
     {
-        "name": "03MM “Caster”",
+        "name": "03MM \"Caster\"",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 20,
@@ -216,7 +216,7 @@
         }
     },
     {
-        "name": "120-68 “Koronides” Field Gun",
+        "name": "120-68 \"Koronides\" Field Gun",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 20,
@@ -351,7 +351,7 @@
         }
     },
     {
-        "name": "30-250 “Tisiphone” Field Cannon",
+        "name": "30-250 \"Tisiphone\" Field Cannon",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -407,7 +407,7 @@
         "production": {}
     },
     {
-        "name": "40-250 “Alekto” Heavy Cannon",
+        "name": "40-250 \"Alekto\" Heavy Cannon",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -415,12 +415,12 @@
         "production": {
             "Vehicle Factory I (Weapons Platform Assembly)": {
                 "time": 420,
-                "requiredVehicle": "30-250 “Tisiphone” Field Cannon"
+                "requiredVehicle": "30-250 \"Tisiphone\" Field Cannon"
             }
         }
     },
     {
-        "name": "40-45 “Smelter”",
+        "name": "40-45 \"Smelter\"",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -539,7 +539,7 @@
         "production": {}
     },
     {
-        "name": "85K-a “Spatha”",
+        "name": "85K-a \"Spatha\"",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -547,12 +547,12 @@
         "production": {
             "Vehicle Factory I (Tank Assembly)": {
                 "time": 420,
-                "requiredVehicle": "85K-b “Falchion”"
+                "requiredVehicle": "85K-b \"Falchion\""
             }
         }
     },
     {
-        "name": "85K-b “Falchion”",
+        "name": "85K-b \"Falchion\"",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 12,
@@ -568,12 +568,12 @@
         "production": {
             "Vehicle Factory I (Weapons Platform Assembly)": {
                 "time": 600,
-                "requiredVehicle": "85K-b “Falchion”"
+                "requiredVehicle": "85K-b \"Falchion\""
             }
         }
     },
     {
-        "name": "86K-a “Bardiche”",
+        "name": "86K-a \"Bardiche\"",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 20,
@@ -581,7 +581,7 @@
         "production": {}
     },
     {
-        "name": "86K-c “Ranseur”",
+        "name": "86K-c \"Ranseur\"",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -589,7 +589,7 @@
         "production": {
             "Vehicle Factory I (Tank Assembly)": {
                 "time": 420,
-                "requiredVehicle": "86K-a “Bardiche”"
+                "requiredVehicle": "86K-a \"Bardiche\""
             }
         }
     },
@@ -613,7 +613,7 @@
         }
     },
     {
-        "name": "90T-v “Nemesis”",
+        "name": "90T-v \"Nemesis\"",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -639,7 +639,7 @@
         "production": {}
     },
     {
-        "name": "945g “Stygian Bolt”",
+        "name": "945g \"Stygian Bolt\"",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -712,7 +712,7 @@
         "production": {}
     },
     {
-        "name": "A51 Venti “Daedalus”",
+        "name": "A51 Venti \"Daedalus\"",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -728,7 +728,7 @@
         "production": {}
     },
     {
-        "name": "AB-11 “Doru”",
+        "name": "AB-11 \"Doru\"",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -736,12 +736,12 @@
         "production": {
             "Vehicle Factory I (Light Vehicle Assembly)": {
                 "time": 300,
-                "requiredVehicle": "AB-8 “Acheron”"
+                "requiredVehicle": "AB-8 \"Acheron\""
             }
         }
     },
     {
-        "name": "AB-8 “Acheron”",
+        "name": "AB-8 \"Acheron\"",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -758,7 +758,7 @@
         "production": {}
     },
     {
-        "name": "AC-b “Trident”",
+        "name": "AC-b \"Trident\"",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -1552,7 +1552,7 @@
         "production": {}
     },
     {
-        "name": "Crow’s Foot Mine",
+        "name": "Crow's Foot Mine",
         "category": "Utility",
         "crateSize": 10,
         "bCrated": true,
@@ -1787,7 +1787,7 @@
         }
     },
     {
-        "name": "G40 “Sagittarii”",
+        "name": "G40 \"Sagittarii\"",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -1795,7 +1795,7 @@
         "production": {}
     },
     {
-        "name": "GA6 “Cestus”",
+        "name": "GA6 \"Cestus\"",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -1803,7 +1803,7 @@
         "production": {
             "Vehicle Factory I (Motor Pool)": {
                 "time": 600,
-                "requiredVehicle": "G40 “Sagittarii”"
+                "requiredVehicle": "G40 \"Sagittarii\""
             }
         }
     },
@@ -1874,7 +1874,7 @@
         }
     },
     {
-        "name": "Grenadier’s Baldric",
+        "name": "Grenadier's Baldric",
         "category": "Uniforms",
         "crateSize": 15,
         "bCrated": true,
@@ -1887,7 +1887,7 @@
                 },
                 "time": 90,
                 "output": {
-                    "Grenadier’s Baldric Crate": 1
+                    "Grenadier's Baldric Crate": 1
                 }
             },
             "Mass Production Factory": {
@@ -1896,13 +1896,13 @@
                 },
                 "time": 8100,
                 "output": {
-                    "Grenadier’s Baldric Crate": 10
+                    "Grenadier's Baldric Crate": 10
                 }
             }
         }
     },
     {
-        "name": "H-10 “Pelekys”",
+        "name": "H-10 \"Pelekys\"",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -1915,7 +1915,7 @@
         }
     },
     {
-        "name": "H-19 “Vulcan”",
+        "name": "H-19 \"Vulcan\"",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -1936,7 +1936,7 @@
         "production": {}
     },
     {
-        "name": "H-8 “Kranesca”",
+        "name": "H-8 \"Kranesca\"",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -1998,7 +1998,7 @@
         }
     },
     {
-        "name": "HC-2 “Scorpion”",
+        "name": "HC-2 \"Scorpion\"",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -2014,7 +2014,7 @@
         "production": {
             "Vehicle Factory I (Tank Assembly)": {
                 "time": 180,
-                "requiredVehicle": "HC-2 “Scorpion”"
+                "requiredVehicle": "HC-2 \"Scorpion\""
             }
         }
     },
@@ -2073,7 +2073,7 @@
         }
     },
     {
-        "name": "HH-a “Javelin”",
+        "name": "HH-a \"Javelin\"",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -2081,7 +2081,7 @@
         "production": {}
     },
     {
-        "name": "HH-b “Hoplite”",
+        "name": "HH-b \"Hoplite\"",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -2089,7 +2089,7 @@
         "production": {}
     },
     {
-        "name": "HH-d “Peltast”",
+        "name": "HH-d \"Peltast\"",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -2097,7 +2097,7 @@
         "production": {}
     },
     {
-        "name": "Hydra’s Whisper",
+        "name": "Hydra's Whisper",
         "category": "Utility",
         "crateSize": 5,
         "bCrated": true,
@@ -2111,7 +2111,7 @@
                 },
                 "time": 100,
                 "output": {
-                    "Hydra’s Whisper Crate": 1
+                    "Hydra's Whisper Crate": 1
                 }
             }
         }
@@ -2171,7 +2171,7 @@
         "production": {}
     },
     {
-        "name": "K-81e “Sombre”",
+        "name": "K-81e \"Sombre\"",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -2296,7 +2296,7 @@
         }
     },
     {
-        "name": "Lance-25 “Hasta”",
+        "name": "Lance-25 \"Hasta\"",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -2320,7 +2320,7 @@
         }
     },
     {
-        "name": "Lance-46 “Sarissa”",
+        "name": "Lance-46 \"Sarissa\"",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -2341,7 +2341,7 @@
         "production": {}
     },
     {
-        "name": "Legionary’s Oilcoat",
+        "name": "Legionary's Oilcoat",
         "category": "Uniforms",
         "crateSize": 15,
         "bCrated": true,
@@ -2354,7 +2354,7 @@
                 },
                 "time": 90,
                 "output": {
-                    "Legionary’s Oilcoat Crate": 1
+                    "Legionary's Oilcoat Crate": 1
                 }
             },
             "Mass Production Factory": {
@@ -2363,7 +2363,7 @@
                 },
                 "time": 8100,
                 "output": {
-                    "Legionary’s Oilcoat Crate": 10
+                    "Legionary's Oilcoat Crate": 10
                 }
             }
         }
@@ -2497,7 +2497,7 @@
         }
     },
     {
-        "name": "Mergo-4 “Myrmidon”",
+        "name": "Mergo-4 \"Myrmidon\"",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -2528,7 +2528,7 @@
         }
     },
     {
-        "name": "Model-7 “Evie”",
+        "name": "Model-7 \"Evie\"",
         "category": "Heavy Ammunition",
         "crateSize": 1,
         "bCrated": true,
@@ -2629,7 +2629,7 @@
         }
     },
     {
-        "name": "Officialis’ Attire",
+        "name": "Officialis' Attire",
         "category": "Uniforms",
         "crateSize": 3,
         "bCrated": true,
@@ -2642,7 +2642,7 @@
                 },
                 "time": 90,
                 "output": {
-                    "Officialis’ Attire Crate": 1
+                    "Officialis' Attire Crate": 1
                 }
             },
             "Mass Production Factory": {
@@ -2651,7 +2651,7 @@
                 },
                 "time": 8100,
                 "output": {
-                    "Officialis’ Attire Crate": 10
+                    "Officialis' Attire Crate": 10
                 }
             }
         }
@@ -2666,7 +2666,7 @@
         "production": {}
     },
     {
-        "name": "Paratrooper’s Ruck",
+        "name": "Paratrooper's Ruck",
         "category": "Utility",
         "crateSize": 10,
         "bCrated": true,
@@ -2679,7 +2679,7 @@
                 },
                 "time": 60,
                 "output": {
-                    "Paratrooper’s Ruck Crate": 1
+                    "Paratrooper's Ruck Crate": 1
                 }
             }
         }
@@ -2703,7 +2703,7 @@
         "production": {}
     },
     {
-        "name": "PL-1 “Phalanx”",
+        "name": "PL-1 \"Phalanx\"",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -2776,7 +2776,7 @@
         "production": {}
     },
     {
-        "name": "R-12 - “Salus” Ambulance",
+        "name": "R-12 - \"Salus\" Ambulance",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -2784,7 +2784,7 @@
         "production": {}
     },
     {
-        "name": "R-12b - “Salva” Flame Truck",
+        "name": "R-12b - \"Salva\" Flame Truck",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -2792,12 +2792,12 @@
         "production": {
             "Vehicle Factory I": {
                 "time": 300,
-                "requiredVehicle": "R-12 - “Salus” Ambulance"
+                "requiredVehicle": "R-12 - \"Salus\" Ambulance"
             }
         }
     },
     {
-        "name": "R-15 - “Chariot”",
+        "name": "R-15 - \"Chariot\"",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -2805,7 +2805,7 @@
         "production": {}
     },
     {
-        "name": "R-17 “Retiarius” Skirmisher",
+        "name": "R-17 \"Retiarius\" Skirmisher",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -2818,7 +2818,7 @@
         }
     },
     {
-        "name": "R-5 “Atlas” Hauler",
+        "name": "R-5 \"Atlas\" Hauler",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -2826,7 +2826,7 @@
         "production": {}
     },
     {
-        "name": "R-5b “Sisyphus” Hauler",
+        "name": "R-5b \"Sisyphus\" Hauler",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -2839,7 +2839,7 @@
         }
     },
     {
-        "name": "R-9 “Speartip” Escort",
+        "name": "R-9 \"Speartip\" Escort",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -3031,7 +3031,7 @@
         }
     },
     {
-        "name": "RR-3 “Stolon” Tanker",
+        "name": "RR-3 \"Stolon\" Tanker",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -3219,7 +3219,7 @@
         "production": {}
     },
     {
-        "name": "T12 “Actaeon” Tankette",
+        "name": "T12 \"Actaeon\" Tankette",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -3227,7 +3227,7 @@
         "production": {}
     },
     {
-        "name": "T13 “Deioneus” Rocket Battery",
+        "name": "T13 \"Deioneus\" Rocket Battery",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -3235,12 +3235,12 @@
         "production": {
             "Vehicle Factory I (Artillery Factory)": {
                 "time": 600,
-                "requiredVehicle": "T12 “Actaeon” Tankette"
+                "requiredVehicle": "T12 \"Actaeon\" Tankette"
             }
         }
     },
     {
-        "name": "T14 “Vesta” Tankette",
+        "name": "T14 \"Vesta\" Tankette",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -3248,12 +3248,12 @@
         "production": {
             "Vehicle Factory I (Motor Pool)": {
                 "time": 600,
-                "requiredVehicle": "T12 “Actaeon” Tankette"
+                "requiredVehicle": "T12 \"Actaeon\" Tankette"
             }
         }
     },
     {
-        "name": "T20 “Ixion” Tankette",
+        "name": "T20 \"Ixion\" Tankette",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -3261,12 +3261,12 @@
         "production": {
             "Vehicle Factory I (Motor Pool)": {
                 "time": 300,
-                "requiredVehicle": "T12 “Actaeon” Tankette"
+                "requiredVehicle": "T12 \"Actaeon\" Tankette"
             }
         }
     },
     {
-        "name": "T3 “Xiphos”",
+        "name": "T3 \"Xiphos\"",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -3274,7 +3274,7 @@
         "production": {}
     },
     {
-        "name": "T5 “Percutio”",
+        "name": "T5 \"Percutio\"",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -3282,12 +3282,12 @@
         "production": {
             "Vehicle Factory I (Motor Pool)": {
                 "time": 300,
-                "requiredVehicle": "T3 “Xiphos”"
+                "requiredVehicle": "T3 \"Xiphos\""
             }
         }
     },
     {
-        "name": "T8 “Gemini”",
+        "name": "T8 \"Gemini\"",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -3295,12 +3295,12 @@
         "production": {
             "Vehicle Factory I (Motor Pool)": {
                 "time": 300,
-                "requiredVehicle": "T3 “Xiphos”"
+                "requiredVehicle": "T3 \"Xiphos\""
             }
         }
     },
     {
-        "name": "Tankman’s Coveralls",
+        "name": "Tankman's Coveralls",
         "category": "Uniforms",
         "crateSize": 15,
         "bCrated": true,
@@ -3313,7 +3313,7 @@
                 },
                 "time": 90,
                 "output": {
-                    "Tankman’s Coveralls Crate": 1
+                    "Tankman's Coveralls Crate": 1
                 }
             },
             "Mass Production Factory": {
@@ -3322,7 +3322,7 @@
                 },
                 "time": 8100,
                 "output": {
-                    "Tankman’s Coveralls Crate": 10
+                    "Tankman's Coveralls Crate": 10
                 }
             }
         }
@@ -3357,7 +3357,7 @@
         "production": {}
     },
     {
-        "name": "Toxot-902 “Blind Silver”",
+        "name": "Toxot-902 \"Blind Silver\"",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -3437,7 +3437,7 @@
         }
     },
     {
-        "name": "Type B - “Lucian”",
+        "name": "Type B - \"Lucian\"",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -3445,7 +3445,7 @@
         "production": {}
     },
     {
-        "name": "Type C - “Charon”",
+        "name": "Type C - \"Charon\"",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -3478,7 +3478,7 @@
         "production": {}
     },
     {
-        "name": "UV-05a “Argonaut”",
+        "name": "UV-05a \"Argonaut\"",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -3486,7 +3486,7 @@
         "production": {}
     },
     {
-        "name": "UV-24 “Icarus”",
+        "name": "UV-24 \"Icarus\"",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -3494,12 +3494,12 @@
         "production": {
             "Vehicle Factory I (Motor Pool)": {
                 "time": 180,
-                "requiredVehicle": "UV-05a “Argonaut”"
+                "requiredVehicle": "UV-05a \"Argonaut\""
             }
         }
     },
     {
-        "name": "UV-5c “Odyssey”",
+        "name": "UV-5c \"Odyssey\"",
         "category": "Vehicle",
         "bCrated": false,
         "freight": 1,
@@ -3507,7 +3507,7 @@
         "production": {
             "Vehicle Factory I (Motor Pool)": {
                 "time": 180,
-                "requiredVehicle": "UV-05a “Argonaut”"
+                "requiredVehicle": "UV-05a \"Argonaut\""
             }
         }
     },

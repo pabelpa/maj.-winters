@@ -1,108 +1,369 @@
 {
     "Rifle squad":{
-        "size": 10,
         "Rifle squad A":{
+            "size": 10,
             "requirements":[],
             "TOE":{
-                "argenti":0.5,
+                "Argenti r.II Rifle":0.5,
                 "7.62mm":1,
-                "bomba":1
+                "Bomastone Grenade":1
             }
         },
         "Rifle squad B":{
             "requirements":[
-                "smoke",
-                "Fuscina",
-                "bayonett"
+                "PT-815 Smoke Grenade",
+                "Fuscina pi.I",
+                "Buckhorn CCQ-18"
             ],
+            "size": 10,
             "TOE":{
-                "argenti":0.25,
-                "Fuscina":0.25,
+                "Argenti r.II Rifle":0.25,
+                "Fuscina pi.I":0.25,
                 "7.62mm":1,
-                "bomba":1,
-                "smoke":1,
-                "bayonett":1
+                "Bomastone Grenade":1,
+                "PT-815 Smoke Grenade":1,
+                "Buckhorn CCQ-18":1
             }
         },
         "Rifle squad C":{
+            "size": 10,
             "requirements":[
-                "smoke",
-                "catena"
+                "PT-815 Smoke Grenade",
+                "Catena rt.IV Auto-Rifle",
+                "Fuscina pi.I"
             ],
             "TOE":{
-                "Fuscina":0.25,
-                "catena":0.5,
+                "Fuscina pi.I":0.25,
+                "Catena rt.IV Auto-Rifle":0.5,
                 "7.62mm":1,
-                "bomba":1,
-                "smoke":1
+                "Bomastone Grenade":1,
+                "PT-815 Smoke Grenade":1
             }
         }
     },
-    "Engineer squad":{ "size": 10 },
-    "Special weapons squad":{ "size": 10 },
-    "Mortar squad":{ "size": 10 },
-    "CQB squad":{ "size": 10 },
+    "Engineer squad":{
+        "Engineering Squad":{
+            "size": 10,
+            "requirements":[
+            ],
+            "TOE":{
+                "Argenti r.II Rifle":0.5,
+                "Basic Materials":10,
+                "Sandbag":10,
+                "Barbed Wire":10,
+                "Metal Beams":10,
+                "7.62mm":1,
+                "R-1 Hauler":1,
+                "Radio":1,
+                "Shovel":1
+            }
+        }
+    },
+    "Special weapons squad":{ 
+        "Push Gun Squad":{
+            "size": 10,
+            "requirements":[
+                "G40 “Sagittarii"
+            ],
+            "TOE":{
+                "Argenti r.II Rifle":0.5,
+                "7.62mm":1,
+                "G40 “Sagittarii":1,
+                "12.7mm":2
+            }
+        }
+    },
+    "Mortar squad":{
+        "Ground Mortar Squad A":{
+            "size": 10,
+            "requirements":[
+                "Cremari Mortar"
+            ],
+            "TOE":{
+                "Argenti r.II Rifle":0.5,
+                "Shrapnel Mortar Shell":1,
+                "Flare Mortar Shell":1,
+                "Mortar Shell":1,
+                "Cremari Mortar":0.25,
+                "7.62mm":1
+            }
+        }
+        
+    },
+    "CQB squad":{
+        "CQB squad A":{
+            "size": 10,
+            "requirements":[
+                "\"The Pitch Gun\" mc.V"
+            ],
+            "TOE":{
+                "9mm":1,
+                "\"The Pitch Gun\" mc.V":0.5
+            }
+        }
+    },
     "Sapper squad":{
-        "size": 10,
         "Sapper squad A":{
+            "size": 10,
             "requirements":[],
             "TOE":{
-                "mammon":3
+                "Mammon 91-b":3
             }
         },
         "Sapper squad B":{
+            "size": 10,
             "requirements":[
-                "smoke"
+                "PT-815 Smoke Grenade"
             ],
             "TOE":{
-                "mammon":3,
-                "smoke":1
+                "Mammon 91-b":3,
+                "PT-815 Smoke Grenade":1
             }
         },
         "Sapper squad C":{
+            "size": 10,
             "requirements":[
                 "Lunaire",
-                "smoke"
+                "PT-815 Smoke Grenade"
             ],
             "TOE":{
-                "lunaire":2,
-                "tremola":2,
-                "smoke":1
+                "KLG901-2 Lunaire F":2,
+                "Tremola Grenade GPb-1":2,
+                "PT-815 Smoke Grenade":1
             }
         },
         "Sapper squad D":{
+            "size": 10,
             "requirements":[
-                "Hydra",
-                "smoke"
+                "Hydra’s Whisper",
+                "PT-815 Smoke Grenade"
             ],
             "TOE":{
-                "Hydra":6,
-                "smoke":1
+                "KLG901-2 Lunaire F":0.6,
+                "Hydra’s Whisper":6,
+                "PT-815 Smoke Grenade":1
             }
         },
         "Sapper squad E":{
             "requirements":[
-                "havoc",
-                "smoke"
+                "Havoc Charge",
+                "PT-815 Smoke Grenade"
             ],
             "TOE":{
-                "Havoc charge":1,
-                "Havoc detonator":1,
-                "smoke":1
+                "KLG901-2 Lunaire F":0.6,
+                "Havoc Charge":1,
+                "Havoc Charge Detonator":1,
+                "PT-815 Smoke Grenade":1
             }
         }
     },
-    "AT Field gun squad":{ "size": 10 },
-    "Recon squad":{ "size": 10 },
-    "AT squad":{ "size": 10 },
-    "AT armor squad":{ "size": 3 },
-    "GP armor squad":{ "size": 3 },
-    "Siege armor squad":{ "size": 3 },
-    "AP armor squad":{ "size": 3 },
-    "Artillery Squad":{ "size": 5 },
-    "Medic Squad":{ "size": 10 },
-    "Marine Squad":{ "size": 10 },
-    "Garrison squad":{ "size": 10 },
-    "Support squad":{ "size": 10 },
-    "Command squad":{ "size": 10 }
+    "AT Field gun squad":{
+        "Smelter squad":{
+            "size": 10,
+            "requirements":[
+                "40-45 \"Smelter\""
+            ],
+            "TOE":{
+                "40mm":1,
+                "40-45 \"Smelter\"":1
+            }
+        }
+    },
+    "Recon squad":{
+        "Advance squad":{
+            "size": 10,
+            "requirements":[
+                "Recon Camo",
+                "PT-815 Smoke Grenade",
+                "Fuscina pi.I"
+            ],
+            "TOE":{
+                "Recon Camo":0.7,
+                "Fuscina pi.I":0.5,
+                "7.62mm":1,
+                "Mammon 91-b":1,
+                "Basic Materials":2,
+                "Shovel":1
+            }
+        }
+        
+    },
+    "AT squad":{
+        "Sticky squad":{
+            "size": 10,
+            "requirements":[
+            ],
+            "TOE":{
+                "Anti-Tank Sticky Bomb":2
+            }
+        }
+        
+    },
+    "AT armor squad":{
+        "Pelekys squad":{
+            "size": 3,
+            "requirements":[
+                "H-10 \"Pelekys\""
+            ],
+            "TOE":{
+                "H-10 \"Pelekys\"":1,
+                "Tankman’s Coveralls":0.2,
+                "68mm":2,
+                "Basic Materials":2,
+                "Gas Mask Filter":0.5,
+                "Gas Mask":0.1,
+                "Binoculars":0.2
+            }
+        }
+        
+    },
+    "GP armor squad":{
+        "Hatchet squad":{
+            "size": 3,
+            "requirements":[
+                "H-5 \"Hatchet\"",
+                "Gas Mask",
+                "Tankman's Coveralls",
+                "Binoculars"
+            ],
+            "TOE":{
+                "H-5 \"Hatchet\"":1,
+                "Tankman's Coveralls":0.2,
+                "40mm":2,
+                "Basic Materials":2,
+                "Gas Mask Filter":0.5,
+                "Gas Mask":0.1,
+                "Binoculars":0.2
+            }
+        }
+        
+    },
+    "Siege armor squad":{
+        "Ballista squad":{
+            "size": 3,
+            "requirements":[
+                "HC-7 \"Ballista\"",
+                "Gas Mask",
+                "Tankman's Coveralls",
+                "Binoculars"
+            ],
+            "TOE":{
+                "HC-7 \"Ballista\"":1,
+                "Tankman's Coveralls":0.2,
+                "250mm \"Purity\" Shell":2,
+                "Basic Materials":2,
+                "Gas Mask Filter":0.5,
+                "Gas Mask":0.1,
+                "Binoculars":0.2
+            }
+        }
+        
+    },
+    "AP armor squad":{ 
+        "Xiphos squad":{
+            "size": 2,
+            "requirements":[
+                "T3 \"Xiphos\"",
+                "Gas Mask"
+            ],
+            "TOE":{
+                "T3 \"Xiphos\"":1,
+                "Tankman's Coveralls":0.2,
+                "7.92mm":1,
+                "Basic Materials":2,
+                "Gas Mask Filter":0.5,
+                "Gas Mask":0.1
+            }
+        }
+        
+    },
+    "Artillery Squad":{
+        "120 squad":{
+            "size": 10,
+            "requirements":[
+                "120-68 \"Koronides\" Field Gun",
+                "Binoculars"
+            ],
+            "TOE":{
+                "120-68 \"Koronides\" Field Gun":2,
+                "120mm":50,
+                "Binoculars":1,
+                "Basic Materials":3,
+                "BMS - Packmule Flatbed":1
+            }
+        }
+        
+    },
+    "Medic Squad":{
+        "Medic squad A":{
+            "size": 10,
+            "requirements":[
+            ],
+            "TOE":{
+                "First Aid Kit":1,
+                "Trauma Kit":1,
+                "Bandages":1,
+                "Blood Plasma":1
+            }
+        }
+
+    },
+    "Marine Squad":{
+        "Marine squad A":{
+            "size": 10,
+            "requirements":[],
+            "TOE":{
+                "Argenti r.II Rifle":0.5,
+                "7.62mm":1,
+                "Bomastone Grenade":1,
+                "BMS - Aquatipper":1
+            }
+        }
+        
+    },
+    "Garrison squad":{
+        "Garrison squad A":{
+            "size": 10,
+            "requirements":[],
+            "TOE":{
+                "Argenti r.II Rifle":0.5,
+                "7.62mm":1,
+                "Bomastone Grenade":1,
+                "Basic Materials":4,
+                "Radio":1
+            }
+        }
+        
+    },
+    "Support squad":{
+        "Logistic Support squad A":{
+            "size": 10,
+            "requirements":[],
+            "TOE":{
+                "Basic Materials":4,
+                "R-1 Hauler":3,
+                "Radio":1
+            }
+        }
+        
+    },
+    "Command squad":{ 
+        "Command squad A":{
+            "size": 10,
+            "requirements":[
+                "UV-05a \"Argonaut\"",
+                "Binoculars",
+                "Officialis' Attire"
+            ],
+            "TOE":{
+                "UV-05a \"Argonaut\"":1,
+                "Officialis' Attire":3,
+                "Binoculars":1,
+                "Argenti r.II Rifle":0.25,
+                "7.62mm":1,
+                "Radio":1
+            }
+        }
+        
+    }
 }
